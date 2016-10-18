@@ -80,9 +80,9 @@ h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited { 
 /* responsivook.cssを上書きします。 -------------------------------------------------- */
 
 /* 変換前のテキストを見せない。これだいじ！（縦書文庫） */
-.nehan-vert-dangumi { visibility: hidden; }
+.nehan-vert-dangumi {  visibility: hidden;}
 /* 背景色 */
-.responsivook-nehan-wrap {  background: #EEEEEE;}
+.responsivook-nehan-wrap {  background-color: #EEEEEE;}
 
 
 
