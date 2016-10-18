@@ -86,10 +86,10 @@
 .btn.sunflower {  background-color: #f2c500;  border-color: #f2c500;  -webkit-box-shadow: 0 3px 0 #b19001;  box-shadow: 0 3px 0 #b19001; }
 .btn.sunflower:hover {  background-color: #e3ba02; }
 .btn.sunflower:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }
-/* 赤 -------------------------------------------------- */
+/* 赤 -------------------------------------------------- *//*
 .btn.red {  background-color: #ea4f37;  border-color: #ea4f37;  -webkit-box-shadow: 0 3px 0 #b13825;  box-shadow: 0 3px 0 #b13825; }
 .btn.red:hover {  background-color: #a53422; }
-.btn.red:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }
+.btn.red:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }*/
 /* 灰色 -------------------------------------------------- */
 .btn.concrete {  background-color: #7e8c8d;  border-color: #7e8c8d;  -webkit-box-shadow: 0 3px 0 #4e5b5c;  box-shadow: 0 3px 0 #4e5b5c; }
 .btn.concrete:hover {  background-color: #6a7879; }
