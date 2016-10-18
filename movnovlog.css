@@ -92,7 +92,7 @@ h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited { 
 /* グローバルヘッダ！ */
 #globalheader-container {/*  color: #999999;  background: #FFFFFF;*/  font-size: 13px;  width: 978px;}
 /* コンテンツのコンテナ！ */
-#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  width: 978px;  background: #FFFFFF;}
+#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  width: 978px;  background: #FF00FF;}
 /* メインカラム！ */
 #main {  margin: 0 auto 0 auto;  width: 974px;}
 /* メインカラムの領域規定。こちらは失敗 */
@@ -318,7 +318,7 @@ span.author.vcard { display: none;}
 #copyright a {  text-decoration: none;  color: #777777;  bottom: 0;}
 #copyright a:hover {  color: #BBBBBB;  transition: 0.8s;}
 
-#footer {/*  position: absolute;  display: block;*/  width: 978px;  background: #FFFFFF;}
+#footer {/*  position: absolute;  display: block;*/  width: 978px;  background: #333333;}
 #footer p {  margin: 0 0 0 30px;  padding-bottom: 30px;  font-size: 13px;  color: #777777;}
 #footer a {  color: #777777;  text-decoration: none;}
 /* ID消しちゃいましょう！ */
