@@ -102,7 +102,7 @@ span.author.vcard { display: none;}
 /* Main - Blogtitle -------------------------------------------------- */
 
 /* ブログタイトル系。#mainに縛られてないみたい */
-/*#blog-title {  display: none;}*/
+#blog-title {  display: none;}
 #blog-title {  width: 640px;  height: 100px;  margin-top: 0;  background: #FFFFFF;}
 #title {  color: #EEEEEE;  font-size: 13px; font-weight:normal;  background: #CC00CC;  margin-bottom: 0;}
 #title a {  background: #CCCCCC;}
