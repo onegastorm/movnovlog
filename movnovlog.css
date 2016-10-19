@@ -372,10 +372,10 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* breadcrumb ---------------------------------------- */
 
 /* パンくず関係 */
-.breadcramb {  display: none;}/*
-.breadcrumb {  font-size: 16px;  color: #999999;  width: 640px;  margin: 0 auto 0 auto;  background: #FFEEEE;}
+.breadcramb {  display: none;}
+.breadcrumb {  font-size: 16px;  color: #999999;  width: 640px;  margin: 0 auto 40px auto;  background: #FFEEEE;}
 .breadcrumb a {  font-size: 13px;  color: #DDDDDD;  text-decoration: none;  margin-left: 17px;}
-.breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}*/
+.breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 
 /* jump ---------------------------------------- */
 
