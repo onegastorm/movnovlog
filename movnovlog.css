@@ -85,6 +85,8 @@ h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited { 
 .responsivook-nehan-wrap {  background-color: #EEEEEE;}
 */
 
+.left-label:before {  font-family: "blogicon";  content: "\f005";}
+
 /*.responsivook-pager {  position: fixed;}*/
 
 /*
