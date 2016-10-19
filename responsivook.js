@@ -79,24 +79,6 @@ var Responsivook = (function(){
     };
   };
 
-/*
-    var _create_pager = function(layout, opt){
-    var div = document.createElement("div");
-    div.className = "responsivook-pager";
-    var left = _create_button(opt.rightLabel, opt.rightColor);
-    var right = _create_button(opt.leftLabel, opt.leftColor);
-    div.appendChild(right);
-    div.appendChild(left);
-    left.onclick = _create_on_click_pager(layout, opt.rightType);
-    right.onclick = _create_on_click_pager(layout, opt.leftType);
-    return {
-      element:div,
-      left:right,
-      right:left
-    };
-  };
-*/
-
     var _create_pager = function(layout, opt){
     var div = document.createElement("div");
     div.className = "responsivook-pager";
@@ -275,11 +257,6 @@ var Responsivook = (function(){
     var is_left_next = flow === "tb-rl";
     var left_color = opt.leftColor || "dark-blue";
     var right_color = opt.rightColor || "red";
-
-//    var left_label = opt.leftLabel || (is_left_next? "&#x2190; NEXT" : "blogicon-chevron-left");
-//    var right_label = opt.rightLabel || (is_left_next? "PREV &#x2192;" : "blogicon-chevron-right");
-//    var left_type = is_left_next? "next" : "prev";
-//    var right_type = is_left_next? "prev" : "next";
 
     var left_label = opt.leftLabel || (is_left_next? "&#x2190; NEXT" : "&#x2190; PREV");
     var right_label = opt.rightLabel || (is_left_next? "PREV &#x2192;" : "NEXT &#x2192;");
