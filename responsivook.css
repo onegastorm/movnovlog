@@ -11,7 +11,7 @@
   opacity: 1; }
 
 /* ブタンの間のスペースですね。 */
-.responsivook-btn:first-child {  margin-right: 0px; }
+.responsivook-btn:first-child {  margin-right: 0px;}
 /*.responsivook-btn:first-child {  margin-right: 20px; }*/
 
 .responsivook-divider {
@@ -37,8 +37,8 @@
   content: ""; }
 
 /* おそらくこれはページャーの場所を指定するものであろう。。。*/
-.responsivook-pager {  text-align: left; }
-/*.responsivook-pager {  text-align: center; }*/
+/*.responsivook-pager {  text-align: left;}*/
+.responsivook-pager {  text-align: center; }
 
 .btn,
 .btn a {
