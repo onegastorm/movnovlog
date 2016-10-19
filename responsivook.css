@@ -38,7 +38,7 @@
 
 /* おそらくこれはページャーの場所を指定するものであろう。。。*/
 .responsivook-pager {  text-align: left; }
-.responsivook-pager {  text-align: center; }
+/*.responsivook-pager {  text-align: center; }*/
 
 .btn,
 .btn a {
