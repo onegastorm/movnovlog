@@ -107,7 +107,7 @@ span.author.vcard { display: none;}
 #title {  color: #EEEEEE;  font-size: 13px; font-weight:normal;  background: #CC00CC;}
 #title a {  background: #CCCCCC;}
 /* タイトル下のリードらしい */
-#blog-description {  display:block;  background: #CCFFCC;}
+#blog-description {  display:block;  background: #CCFFCC;  margin-top: 0;}
 
 /* Entry -------------------------------------------------- */
 
