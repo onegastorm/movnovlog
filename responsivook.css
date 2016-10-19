@@ -28,7 +28,7 @@
   -moz-user-select: none; }
 
 /* 本文表示部分について設定するものではないか？ */
-.responsivook-nehan-wrap {  padding: 40px 0px 60px 0px;  margin: 0 0 80px 100px;  background-color: #FFFAFA;  color: #444444; }
+.responsivook-nehan-wrap {  padding: 40px 0px 60px 0px;  margin: 0 0 80px 60px;  background-color: #FFFAFA;  color: #444444; }
 /*.responsivook-nehan-wrap {  padding: 1em 0;  margin-bottom: 1em;  background-color: #EEEEEE;  color: #444444; }*/
 
 .rsponsivook-nehan-wrap::after {
