@@ -86,7 +86,7 @@ h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited { 
 */
 
 .re-btn-nx:before {  font-family: "blogicon";  content: "\f006";  color: #000000;}
-.re-btn-bk:before {  font-family: "blogicon";  content: "\f006";  color: #000000;}
+.re-btn-bk:before {  font-family: "blogicon";  content: "\f005";  color: #000000;}
 
 /*.responsivook-btn:before {  font-family: "blogicon";  content: "\f005";  color: #000000;}*/
 /*.appendChild(left):before {  font-family: "blogicon";  content: "\f005";  color: #000000;}*/
