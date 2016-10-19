@@ -79,7 +79,7 @@ var Responsivook = (function(){
     };
   };
 
-
+/*
     var _create_pager = function(layout, opt){
     var div = document.createElement("div");
     div.className = "responsivook-pager";
@@ -95,8 +95,8 @@ var Responsivook = (function(){
       right:left
     };
   };
+*/
 
-/*
     var _create_pager = function(layout, opt){
     var div = document.createElement("div");
     div.className = "responsivook-pager";
@@ -112,7 +112,7 @@ var Responsivook = (function(){
       right:right
     };
   };
-*/
+
 
   var _append_page = function(layout, page){
     var target = layout.wrapElement;
