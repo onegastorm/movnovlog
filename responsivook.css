@@ -49,10 +49,9 @@ body {
 
 /* 進むブタン */
 .btn-nx {
-  font-size: 18px;
-/*  white-space: nowrap;*/
   width: 50px;
   height: 200px;
+/*  font-size: 18px;*/
   padding: .8em 1.5em;
   line-height: 18px;
   display: inline-block;
@@ -68,10 +67,9 @@ body {
 
 /* 戻るブタン */
 .btn-bk {
-  font-size: 18px;
-/*  white-space: nowrap;*/
   width: 50px;
   height: 200px;
+/*  font-size: 18px;*/
   padding: .8em 1.5em;
   line-height: 18px;
   display: inline-block;
