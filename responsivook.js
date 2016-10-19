@@ -93,8 +93,8 @@ var Responsivook = (function(){
       element:div,
 
 
-      right:right,
-      left:left
+      right:left,
+      left:right
 //      left:left,
 //      right:right
 
