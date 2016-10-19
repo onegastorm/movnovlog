@@ -237,9 +237,9 @@ span.author.vcard { display: none;}
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域 */
-#box2 {  width: 640px;  font-size: 13px;  color: #777777;  padding: 40px 0 10px 0;  background: #333333;}
+#box2 {  width: 640px;  font-size: 16px;  color: #777777;  padding: 40px 0 10px 0;  background: #333333;}
 /* 段組やらないよー！ */
-.hatena-module {  width: 600px;  margin: 50px 50px 50px 50px;}
+.hatena-module {  width: 600px;  margin: 0px 20px 0px 20px;}
 /* 段組するよー！ */
 /*.hatena-module {  display: inline-block;  vertical-align: bottom;  margin-left: 50px;  width: 350px;}*/
 /*.hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}*/
