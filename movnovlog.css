@@ -376,17 +376,17 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* jump ---------------------------------------- */
 
-/* 一番上に戻るブタンだよ！　ここにもつけようよ！ */
-#jump-top {  position: fixed;  width: 640px;/*  margin-left: 40%;*/  text-align: center;  top: 0;}
-/*#jump-top {  position: fixed;  top: 0;  width: 20%;  margin-left: 40%;  text-align: center;}*/
+/* 一番上に戻るブタンだよ！　ここにもつけようよ！ *//*
+#jump-top {  position: fixed;  width: 640px;  text-align: center;  top: 0;}*/
+/*#jump-top {  position: fixed;  top: 0;  width: 20%;  margin-left: 40%;  text-align: center;}*//*
 #jump-top-btn {  font-size: 24px;  color: #BBBBBB;   cursor: pointer;  background: rgba( 256, 256, 256, 0.0);}
-#jump-top-btn:hover {  color: #777777;  transition: 0.8s;}
+#jump-top-btn:hover {  color: #777777;  transition: 0.8s;}*/
 
-/* 一番下に進むブタンだよ！ */
-#jump-btm {  position: fixed;  width: 640px;/*  margin-left: 40%;*/  text-align: center;  bottom: 0;}
-/*#jump-btm {  position: fixed;  bottom: 0;  width: 20%;  margin-left: 40%;  text-align: center;}*/
+/* 一番下に進むブタンだよ！ *//*
+#jump-btm {  position: fixed;  width: 640px;  text-align: center;  bottom: 0;}*/
+/*#jump-btm {  position: fixed;  bottom: 0;  width: 20%;  margin-left: 40%;  text-align: center;}*//*
 #jump-btm-btn {  font-size: 24px;  color: #BBBBBB;   cursor: pointer;  background: rgba( 256, 256, 256, 0.0);}
-#jump-btm-btn:hover {  color: #777777;  transition: 0.8s;}
+#jump-btm-btn:hover {  color: #777777;  transition: 0.8s;}*/
 
 /* media queries をインポートするよ！ boilerplateからのこぴぺだけどね！ -------------------------------------------------- */
 
@@ -399,24 +399,25 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 }
 
 /* Media Queries - Tablet */
-@media (max-width: 977px)/* and (min-width: 768px)*/ {
+
+/*@media (max-width: 977px)/* and (min-width: 768px)*//* {
 #globalheader-container {  width: 512px;}
 #container {  width: 512px;}
 #main {  width: 500px;}
 /* entry-footer */
-.entry-footer {  margin:0 2px 0 2px;}
+/*.entry-footer {  margin:0 2px 0 2px;}
 #box2 {  width: 512px}
 #box3 {  width: 100%}
 #footer {  width: 512px}
 /* jump */
-#jump-top {  width: 512px;}
+/*#jump-top {  width: 512px;}
 #jump-btm {  width: 512px;}
 /* hatena-module */
-.hatena-module {  width: 410px;}
+/*.hatena-module {  width: 410px;}
 /* page-about  */
-.page-about .entry-content {  padding: 80px 30px 20px 30px;}
+/*.page-about .entry-content {  padding: 80px 30px 20px 30px;}
 /* page-archive */
-.page-archive #main {  width: 460px;)
+/*.page-archive #main {  width: 460px;)
 /* 1カラムにしたい場合は下記のコメントアウトを外してください ----*//*
 #main,
 #box2 {  width: 100%;}
