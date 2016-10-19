@@ -59,13 +59,30 @@ var Responsivook = (function(){
       document.dispatchEvent(event);
     }, 250);
   });
-
+/*
   var _create_button = function(label, color){
     var button = document.createElement("button");
     button.className = ["responsivook-btn", "btn", "icon-only", color].join(" ");
     button.innerHTML = label;
     return button;
   };
+*/
+
+  var _create_button_next = function(label, color){
+    var button_nx = document.createElement("button");
+    button_nx.className = ["re-btn-nx", "btn-nx", "icon-only-nx", color].join(" ");
+    button_nx.innerHTML = label;
+    return button_nx;
+  };
+
+  var _create_button_back = function(label, color){
+    var button_bk = document.createElement("button");
+    button_bk.className = ["re-btn-bk", "btn-bk", "icon-only-bk", color].join(" ");
+    button_bk.innerHTML = label;
+    return button_bk;
+  };
+
+
 
   var _create_on_click_pager = function(layout, type){
     return (type === "next")? function(){
