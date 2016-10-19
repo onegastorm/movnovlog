@@ -90,8 +90,11 @@ var Responsivook = (function(){
     right.onclick = _create_on_click_pager(layout, opt.rightType);
     return {
       element:div,
-      left:left,
-      right:right
+
+      left:right,
+      right:left
+//      left:left,
+//      right:right
     };
   };
 
@@ -256,10 +259,17 @@ var Responsivook = (function(){
     var is_left_next = flow === "tb-rl";
     var left_color = opt.leftColor || "dark-blue";
     var right_color = opt.rightColor || "red";
+
+//    var left_label = opt.leftLabel || (is_left_next? "&#x2190; NEXT" : "blogicon-chevron-left");
+//    var right_label = opt.rightLabel || (is_left_next? "PREV &#x2192;" : "blogicon-chevron-right");
+//    var left_type = is_left_next? "next" : "prev";
+//    var right_type = is_left_next? "prev" : "next";
+
     var left_label = opt.leftLabel || (is_left_next? "&#x2190; NEXT" : "&#x2190; PREV");
     var right_label = opt.rightLabel || (is_left_next? "PREV &#x2192;" : "NEXT &#x2192;");
     var left_type = is_left_next? "next" : "prev";
     var right_type = is_left_next? "prev" : "next";
+
     var styles = opt.styles || {};
     var theme = opt.theme || "book";
     return {
