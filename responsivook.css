@@ -51,9 +51,8 @@ body {
 .btn-nx {
   width: 50px;
   height: 200px;
-/*  font-size: 18px;*/
-  padding: .8em 1.5em;
-  line-height: 18px;
+/*  padding: .8em 1.5em;
+  line-height: 18px;*/
   display: inline-block;
   zoom: 1;
   color: #fff;
@@ -69,9 +68,8 @@ body {
 .btn-bk {
   width: 50px;
   height: 200px;
-/*  font-size: 18px;*/
-  padding: .8em 1.5em;
-  line-height: 18px;
+/*  padding: .8em 1.5em;
+  line-height: 18px;*/
   display: inline-block;
   zoom: 1;
   color: #fff;
