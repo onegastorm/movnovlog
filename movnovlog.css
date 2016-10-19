@@ -237,7 +237,7 @@ span.author.vcard { display: none;}
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域 */
-#box2 {  width: 640px;  font-size: 16px;  color: #777777;  padding: 40px 0 40px 0;  background: #333333;}
+#box2 {  width: 640px;  font-size: 24px;  color: #777777;  padding: 40px 0 40px 0;  background: #333333;}
 /* 段組やらないよー！ */
 .hatena-module {  width: 560px;  margin: 0px 40px 0px 40px;}
 /* 段組するよー！ */
@@ -276,7 +276,7 @@ span.author.vcard { display: none;}
 .recent-entries a:hover {  color: #BBBBBB;  text-decoration: none;  transition: 0.8s;}
 /*.hatena-module-category {  line-height: 1.0;}*/
 /* 最新記事の本文の文字の大きさを変えるという重要な任務 */
-.urllist-item-inner.recent-entries-item-inner {  font-size: 16px;}
+.urllist-item-inner.recent-entries-item-inner {  font-size: 24px;}
 /* アクセスランキングの本文の文字の大きさを変えるというかなりどうでも良い任務 */
 /*.urllist-item-inner.entries-access-ranking-item-inner {  font-size: 13px;}*/
 /* 段差作っちゃう */
@@ -300,11 +300,11 @@ span.author.vcard { display: none;}
 .pager {  margin: 0 20px 10px 20px;  display: block;  *zoom: 1;}
 /* 戻るページ送り */
 .pager .pager-prev {  float: left;  text-align: left;}
-.pager .pager-prev a {  color: #999999;}
+.pager .pager-prev a {  font-size: 24px;  color: #999999;}
 .pager .pager-prev a:hover {  color: #333333;  transition: 0.8s;}
 /* 進むページ送り */
 .pager .pager-next {  float: right;  text-align: right;}
-.pager .pager-next a {  text-decoration: none;  font-size: 11px;  color: #999999;}
+.pager .pager-next a {  text-decoration: none;  font-size: 20px;  color: #999999;}
 .pager .pager-next a:hover {  color: #333333;  transition: 0.8s;}
 /* よくわからないが必要なものらしい */
 .pager:after {  display: block;  visibility: hidden;  font-size: 0;  height: 0;  clear: both;  content: "@@@";}
