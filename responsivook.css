@@ -10,8 +10,9 @@
 .responsivook-fadein {
   opacity: 1; }
 
-.responsivook-btn:first-child {
-  margin-right: 100px; }
+/* ブタンの間のスペースですね。 */
+.responsivook-btn:first-child {  margin-right: 0px; }
+/*.responsivook-btn:first-child {  margin-right: 20px; }*/
 
 .responsivook-divider {
   border-top: 1px solid rgba(34, 36, 38, 0.15);
