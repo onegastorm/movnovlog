@@ -32,6 +32,7 @@
 
 /* pager -------------------------------------------------- */
 
+
 /* ブタンの間のスペースですね。 */
 .re-btn-nx:first-child {  margin-right: 0px;}
 .re-btn-bk:first-child {  margin-right: 0px;}
@@ -65,6 +66,8 @@
   position: relative;
   -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
   transition: border .25s linear, color .25s linear, background-color .25s linear; }
+/* アイコンだよぉ！ - */
+.re-btn-nx:before {  font-family: "blogicon";  content: "\f006";  color: #000000;}
 
 /* 戻るブタン */
 .btn-bk {
@@ -87,6 +90,8 @@
   position: relative;
   -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
   transition: border .25s linear, color .25s linear, background-color .25s linear; }
+/* アイコンだよぉ！ - */
+.re-btn-bk:before {  font-family: "blogicon";  content: "\f005";  color: #000000;}
 
 /*
   .btn {
