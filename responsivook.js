@@ -79,7 +79,8 @@ var Responsivook = (function(){
     };
   };
 
-  var _create_pager = function(layout, opt){
+/*
+    var _create_pager = function(layout, opt){
     var div = document.createElement("div");
     div.className = "responsivook-pager";
     var left = _create_button(opt.leftLabel, opt.leftColor);
@@ -90,13 +91,17 @@ var Responsivook = (function(){
     right.onclick = _create_on_click_pager(layout, opt.rightType);
     return {
       element:div,
-
+*/
+/*
       left:right,
       right:left
 //      left:left,
 //      right:right
+*/
+/*
     };
   };
+*/
 
   var _append_page = function(layout, page){
     var target = layout.wrapElement;
