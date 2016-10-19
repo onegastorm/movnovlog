@@ -36,8 +36,9 @@
 .rsponsivook-nehan-wrap::after {
   content: ""; }
 
-.responsivook-pager {
-  text-align: center; }
+/* おそらくこれはページャーの場所を指定するものであろう。。。*/
+.responsivook-pager {  text-align: left; }
+.responsivook-pager {  text-align: center; }
 
 .btn,
 .btn a {
