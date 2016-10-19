@@ -329,10 +329,10 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* page-about ---------------------------------------- */
 
 /* 記事数とか */
-.page-about {  font-size: 20px;}
+.page-about {  font-size: 24px;}
 .page-about dd {  margin: 0 0 0 0;}
 /* ブログ投稿件数とか */
-.page-about dt {  font-size: 18px;  color: #BBBBBB;  padding: 40px 0 0 0;}
+.page-about dt {  font-size: 20px;  color: #BBBBBB;  padding: 40px 0 0 0;}
 /* 上下にマージンが効かないとか。 */
 .page-about .entry-content {  text-align: left;  padding: 60px 0px 20px 60px;}
 /* サムネイルですかね */
