@@ -10,10 +10,6 @@
 .responsivook-fadein {
   opacity: 1; }
 
-/* ブタンの間のスペースですね。 */
-.responsivook-btn:first-child {  margin-right: 0px;}
-/*.responsivook-btn:first-child {  margin-right: 20px; }*/
-
 .responsivook-divider {
   border-top: 1px solid rgba(34, 36, 38, 0.15);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -28,27 +24,29 @@
   -moz-user-select: none; }
 
 /* 本文表示部分について設定するものではないか？ */
-.responsivook-nehan-wrap {  padding: 40px 0px 80px 0px;  margin: 0 0 120px 50px;  background-color: #FFFAFA;  color: #444444; }
+.responsivook-nehan-wrap {  padding: 40px 0px 80px 0px;  margin: 0 0 120px 50px;  background-color: #FFFAFA;  color: #444444;}
 /*.responsivook-nehan-wrap {  padding: 1em 0;  margin-bottom: 1em;  background-color: #EEEEEE;  color: #444444; }*/
+/* よくわからないが、必要なものなんだろう・・・ */
+.rsponsivook-nehan-wrap::after {  content: "";}
 
-.rsponsivook-nehan-wrap::after {
-  content: ""; }
 
-/* おそらくこれはページャーの場所を指定するものであろう。。。*/
+/* pager -------------------------------------------------- */
+
+/* ブタンの間のスペースですね。 */
+.responsivook-btn:first-child {  margin-right: 0px;}
+/*.responsivook-btn:first-child {  margin-right: 20px; }*/
+/* ページャーの場所 */
 .responsivook-pager {  text-align: left;}
 /*.responsivook-pager {  text-align: center; }*/
-
-.btn,
-.btn a {
-  text-decoration: none; }
-
+.btn,.btn a {  text-decoration: none;}
 .btn {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 18px;
   white-space: nowrap;
-  width: 200px;
+  width: 50px;
+  height: 100px;
   padding: .8em 1.5em;
   font-family: Open Sans, Helvetica,Arial,sans-serif;
   line-height: 18px;
