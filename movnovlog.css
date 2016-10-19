@@ -103,11 +103,11 @@ span.author.vcard { display: none;}
 
 /* ブログタイトル系。#mainに縛られてないみたい */
 /*#blog-title {  display: none;}*/
-#blog-title {  top: 0;  width: 640px;  height: 200px;  color: #EEEEEE;  background: #FFFFFF;}
-#title {  color: #EEEEEE;  font-size: 18px; font-weight:normal;}
+#blog-title {  top: 0;  width: 640px;  height: 200px;  background: #FFFFFF;}
+#title {  color: #EEEEEE;  font-size: 13px; font-weight:normal;  background: #CC00CC;}
 #title a {  background: #CCCCCC;}
 /* タイトル下のリードらしい */
-#blog-description {  background: #CCFFCC;}
+#blog-description {  display:block;  background: #CCFFCC;}
 
 /* Entry -------------------------------------------------- */
 
