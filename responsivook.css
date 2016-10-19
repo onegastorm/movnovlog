@@ -29,7 +29,7 @@ body {
   -moz-user-select: none; }
 
 /* 本文表示部分について設定するものらしぃ */
-.responsivook-nehan-wrap {  padding: 40px 0px 80px 0px;  margin: 0 0 120px 50px;  background-color: #FFFAFA;  color: #444444;}
+.responsivook-nehan-wrap {  padding: 40px 0px 80px 10px;  margin: 0 0 120px 50px;  background-color: #FFFAFA;  color: #444444;}
 /* よくわからないが、必要なものなんだろう・・・ */
 .rsponsivook-nehan-wrap::after {  content: "";}
 
