@@ -277,8 +277,8 @@ var Responsivook = (function(){
     var left_color = opt.leftColor || "dark-blue";
     var right_color = opt.rightColor || "red";
 
-    var left_label = opt.leftLabel || (is_left_next? "&#x2190; NEXT" : "&#x2190; PREV");
-    var right_label = opt.rightLabel || (is_left_next? "PREV &#x2192;" : "NEXT &#x2192;");
+    var left_label = opt.leftLabel || (is_left_next? " NX" : " BK");
+    var right_label = opt.rightLabel || (is_left_next? "BK " : "NX ");
     var left_type = is_left_next? "next" : "prev";
     var right_type = is_left_next? "prev" : "next";
 
