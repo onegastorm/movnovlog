@@ -102,8 +102,8 @@ span.author.vcard { display: none;}
 /* Main - Blogtitle -------------------------------------------------- */
 
 /* ブログタイトル系。#mainに縛られてないみたい */
-#blog-title {  display: none;}
-/*#blog-title {  margin:0 auto 0 auto;  width: 973px;  background: #CCCCFF;}*/
+/*#blog-title {  display: none;}*/
+#blog-title {  margin:0 auto 0 auto;  width: 640px;  height: 200px;  background: #CCCCFF;}
 /*#title {  background: #FFCCCC;}*/
 /*#title a {  background: #CCCCCC;}*/
 /* タイトル下のリードらしい */
