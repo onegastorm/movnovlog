@@ -63,7 +63,7 @@ body {
 /*  position: absolute;*/
 /*  position: fixed;*/
   position: relative;
-  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear, font-color .25s linear;
   transition: border .25s linear, color .25s linear, background-color .25s linear, font-color .25s linear;
 }
 /* アイコンだよぉ！ - */
