@@ -48,31 +48,16 @@ body {
 /*.btn,.btn a {  text-decoration: none;}*/
 
 /* 進むブタン */
-.btn-nx {  width: 50px;  height: 200px;
-/*  padding: .8em 1.5em;
-  line-height: 18px;*/
-  display: inline-block;
-  zoom: 1;
-/*  color: #fff;*/
-  text-align: center;
-  position: relative;
+.btn-nx {  width: 50px;  height: 200px;  display: inline-block;  zoom: 1;  text-align: center;  position: relative;
   -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
-  transition: border .25s linear, color .25s linear, background-color .25s linear;
-}
+  transition: border .25s linear, color .25s linear, background-color .25s linear;}
 /* アイコンだよぉ！ - */
 .re-btn-nx:before {  font-family: "blogicon";  content: "\f006";  color: #777777;  font-size: 18px;}
 
 /* 戻るブタン */
-.btn-bk {  width: 50px;  height: 200px;
-/*  padding: .8em 1.5em;
-  line-height: 18px;*/
-  display: inline-block;
-  zoom: 1;
-/*  color: #fff;*/
-  text-align: center;
-  position: relative;
+.btn-bk {  width: 50px;  height: 200px;  display: inline-block;  zoom: 1;  text-align: center;  position: relative;
   -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
-  transition: border .25s linear, color .25s linear, background-color .25s linear; }
+  transition: border .25s linear, color .25s linear, background-color .25s linear;}
 /* アイコンだよぉ！ - */
 .re-btn-bk:before {  font-family: "blogicon";  content: "\f005";  color: #777777;  font-size: 18px;}
 
@@ -126,13 +111,13 @@ body {
 
 /* ようわかりまへんわ -------------------------------------------------- */
 
-.btn-nx i {  padding-right: 0.8em;  line-height: 22px; }
-.icon-only-nx {  padding: 1em; }
-.icon-only-nx i {  padding-right: 0;  font-size: 22px;  line-height: 22px; }
+.btn-nx i {  padding-right: 0.8em;  line-height: 22px;}
+.icon-only-nx {  padding: 1em;}
+.icon-only-nx i {  padding-right: 0;  font-size: 22px;  line-height: 22px;}
 
-.btn-bk i {  padding-right: 0.8em;  line-height: 22px; }
-.icon-only-bk {  padding: 1em; }
-.icon-only-bk i {  padding-right: 0;  font-size: 22px;  line-height: 22px; }
+.btn-bk i {  padding-right: 0.8em;  line-height: 22px;}
+.icon-only-bk {  padding: 1em;}
+.icon-only-bk i {  padding-right: 0;  font-size: 22px;  line-height: 22px;}
 /*
 .btn i {  padding-right: 0.8em;  line-height: 22px; }
 .icon-only {  padding: 1em; }
