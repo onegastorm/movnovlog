@@ -84,10 +84,9 @@ h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited { 
 /* Globalheader & Container - 全体的に -------------------------------------------------- */
 
 /* グローバルヘッダ！ */
-#globalheader-container {/*  color: #999999;  background: #FFFFFF;*/  font-size: 13px;  width: 640px;}
-#globalheader-container-inner {  padding: 0 0 0 0;  margin: 0 0 0 0;}
+#globalheader-container {  font-size: 13px;  width: 640px;}
 /* コンテンツのコンテナ！ */
-#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  width: 640px;  background: #FF00FF;}
+#container {  width: 640px;  background: #FF00FF;}
 /* メインカラム！ */
 #main {  width: 580px;}
 /*#main {  margin: 0 auto 0 auto;  width: 600px;}*/
