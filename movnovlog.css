@@ -409,8 +409,6 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #jump-btm-btn {  font-size: 24px;  color: #BBBBBB;   cursor: pointer;  background: rgba( 256, 256, 256, 0.0);}
 #jump-btm-btn:hover {  color: #777777;  transition: 0.8s;}
 
-.btm {  position: fixed;}
-
 /* media queries をインポートするよ！ boilerplateからのこぴぺだけどね！ -------------------------------------------------- */
 
 /* Media Queries - Retina Display */
