@@ -238,10 +238,12 @@ span.author.vcard { display: none;}
 
 /* サイドバーの領域 */
 #box2 {  width: 640px;  font-size: 13px;  color: #777777;  padding: 40px 0 10px 0;  background: #333333;}
+/* 段組やらないよー！ */
+.hatena-module {  width: 600px;  margin: 50px 50px 50px 50px;}
 /* 段組するよー！ */
-.hatena-module {  display: inline-block;  vertical-align: bottom;  margin-left: 50px;  width: 350px;}
+/*.hatena-module {  display: inline-block;  vertical-align: bottom;  margin-left: 50px;  width: 350px;}*/
+/*.hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}*/
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
-.hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}
 /* 各要素のタイトル */
 .hatena-module-title {  display: block;/*  padding-bottom:10px;*/  border-bottom: solid 1px #555555;  background: #333333;}
 .hatena-module-title a {  color: #777777;  text-decoration: none;}
@@ -368,11 +370,11 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* breadcrumb ---------------------------------------- */
 
-/* パンくず関係 *//*
-.breadcramb {  display: none;}*/
+/* パンくず関係 */
+.breadcramb {  display: none;}/*
 .breadcrumb {  font-size: 13px;  color: #999999;  width: 974px;  margin: 0 auto 0 auto;  background: #FFEEEE;}
 .breadcrumb a {  font-size: 11px;  color: #DDDDDD;  text-decoration: none;  margin-left: 17px;}
-.breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
+.breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}*/
 
 /* jump ---------------------------------------- */
 
