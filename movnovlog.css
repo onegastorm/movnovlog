@@ -113,9 +113,9 @@ h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited { 
 /* グローバルヘッダ！ */
 #globalheader-container {/*  color: #999999;  background: #FFFFFF;*/  font-size: 13px;  width: 978px;}
 /* コンテンツのコンテナ！ */
-#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  width: 978px;  background: #FF00FF;}
+#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  width: 800px;  background: #FF00FF;}
 /* メインカラム！ */
-#main {  margin: 0 auto 0 auto;  width: 800px;}
+#main {  margin: 0 auto 0 auto;  width: 600px;}
 /* メインカラムの領域規定。こちらは失敗 */
 /*#container #content {  width: 940px}*/
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
