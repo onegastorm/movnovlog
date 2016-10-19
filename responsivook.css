@@ -33,14 +33,14 @@
 /* ブタンの間のスペースですね。 */
 .re-btn-nx:first-child {  margin-right: 0px;}
 .re-btn-bk:first-child {  margin-right: 0px;}
-.responsivook-btn:first-child {  margin-right: 0px;}
+/*.responsivook-btn:first-child {  margin-right: 0px;}*/
 /* ページャーの設定 */
-.responsivook-pager {  position: absolute;  top: 0;  left: 0;  width: 50px;  text-align: left;}
+.responsivook-pager {  position: absolute;  top: 0;  left: 0;  width: 50px;/*  text-align: left;*/}
 /*.responsivook-pager {  text-align: center; }*/
-/* ？？？？？？？？ */
+/* 何やねん */
 .btn-nx,.btn-nx a {  text-decoration: none;}
 .btn-bk,.btn-bk a {  text-decoration: none;}
-.btn,.btn a {  text-decoration: none;}
+/*.btn,.btn a {  text-decoration: none;}*/
 
 
 .btn-nx {
