@@ -93,7 +93,7 @@ h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited { 
 /* メインカラムの領域規定。こちらは失敗 */
 /*#container #content {  width: 940px}*/
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
-#container-inner {  padding: 0 0 0 0;}
+/*#container-inner {  padding: 0 0 0 0;}*/
 /* サイドバー！ */
 #box2 {}
 /* 記事末尾のIDを非表示。らしいのだが効果なし？ */
@@ -104,7 +104,7 @@ span.author.vcard { display: none;}
 /* ブログタイトル系。#mainに縛られてないみたい */
 /*#blog-title {  display: none;}*/
 #blog-title {  margin:0 auto 0 auto;  width: 640px;  height: 200px;  background: #FFFFFF;}
-#title {  color: #EEEEEE;}
+#title {  font-size: 18px;  color: #EEEEEE;}
 /*#title a {  background: #CCCCCC;}*/
 /* タイトル下のリードらしい */
 /*#blog-description {  background: #CCFFCC;}*/
