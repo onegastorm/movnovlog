@@ -113,7 +113,7 @@ h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited { 
 /* グローバルヘッダ！ */
 #globalheader-container {/*  color: #999999;  background: #FFFFFF;*/  font-size: 13px;  width: 978px;}
 /* コンテンツのコンテナ！ */
-#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  width: 900px;  background: #FF00FF;  margin: 0;}
+#container {/*  margin: 0 auto 0 auto;  width: 100%;*/  width: 900px;  background: #FF00FF;  margin-left: 0;}
 /* メインカラム！ */
 #main {  margin: 0 auto 0 auto;  width: 600px;}
 /* メインカラムの領域規定。こちらは失敗 */
