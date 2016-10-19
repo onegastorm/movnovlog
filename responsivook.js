@@ -91,14 +91,8 @@ var Responsivook = (function(){
     right.onclick = _create_on_click_pager(layout, opt.rightType);
     return {
       element:div,
-
-
-      right:left,
-      left:right
-//      left:left,
-//      right:right
-
-
+      left:left,
+      right:right
     };
   };
 
