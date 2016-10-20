@@ -387,7 +387,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #jump-top-btn:hover {  color: #777777;  transition: 0.8s;}
 
 /* 一番下に進むブタンだよ！ */
-#jump-btm {  position: fixed;  width: 640px;/*  height: 0px;*/  text-align: center;  bottom: 0;}
+#jump-btm {  position: fixed;  width: 640px;  height: 1px;  text-align: center;  bottom: 0;}
 /*#jump-btm {  position: fixed;  bottom: 0;  width: 20%;  margin-left: 40%;  text-align: center;}*/
 #jump-btm-btn {  font-size: 24px;  color: #BBBBBB;  cursor: pointer;  background: rgba( 256, 256, 256, 0.0);}
 #jump-btm-btn:hover {  color: #777777;  transition: 0.8s;}
