@@ -263,7 +263,8 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 .hatena-module-title a {  color: #777777;  text-decoration: none;}
 .hatena-module-title a:hover {  color: #777777;  text-decoration: none;  cursor: default;}
 /* 各要素の本文 */
-.hatena-module-body {  margin-top: 5px;/*  float: left;*/  background: #333333;  line-height: 24px}
+.hatena-module-body {  margin-top: 5px;/*  float: left;*/  background: #333333;}
+.hatena-module-body a {  line-height: 24px}
 /* 何これ？ */
 .hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align: middle;}
 /* はてなモジュール・プロフィール関係 *//*
