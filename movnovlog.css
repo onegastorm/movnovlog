@@ -224,7 +224,7 @@ span.author.vcard { display: none;}
 /*.comment-metadata a {  color: #000000;}*/
 
 /* コメントブタンの領域を規定します。 */
-.leave-comment-title {  font-size: 18px;  color: #BBBBBB;
+.leave-comment-title {  margin-left: 30px;  font-size: 18px;  color: #BBBBBB;
 /*  display: inline-block;  *display: inline;  *zoom:1;*/
 /*  margin-left: 28px;  line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 2px 10px;*/
 /*  cursor: pointer;  text-decoration: none;*/
