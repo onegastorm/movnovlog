@@ -3,18 +3,26 @@ body {
   -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  -o-box-sizing: border-box;  -ms-box-sizing: border-box;  box-sizing: border-box;
 }
 
+/* 画面効果らしい */
+.nehan-body {  opacity: 0;  margin: 0 auto;
+  -webkit-transition: opacity 0.2s ease-in;  -moz-transition: opacity 0.2s ease-in;  -ms-transition: opacity 0.2s ease-in;  -o-transition: opacity 0.2s ease-in;  transition: opacity 0.2s ease-in;}
+.responsivook-fadein {  opacity: 1;}
 
-.nehan-body {
-  opacity: 0;
-  -webkit-transition: opacity 0.2s ease-in;
-  -moz-transition: opacity 0.2s ease-in;
-  -ms-transition: opacity 0.2s ease-in;
-  -o-transition: opacity 0.2s ease-in;
-  transition: opacity 0.2s ease-in;
-  margin: 0 auto; }
+/* 何やろ */
+.responsivook-divider {
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 1rem;
+  margin: 1rem 0;
+  height: 0;
+  line-height: 1;
+  letter-spacing: .05em;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -moz-user-select: none; }
 
-.responsivook-fadein {
-  opacity: 1; }
+
 
 .responsivook-btn:first-child {
   margin-right: 20px; }
