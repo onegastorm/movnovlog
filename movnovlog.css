@@ -118,8 +118,8 @@ span.author.vcard { display: none;}
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
 /* 記事タイトル部カテゴリブタン系 */
-.categories {  font-size: 24px;  margin-top: 0;  padding-top: 0;}
-.categories a {  color: #BBBBBB;  text-decoration: none;  background: #FFFF00;}
+.categories {  font-size: 24px;}
+.categories a {  color: #BBBBBB;  text-decoration: none;  background: #FFFF00;  margin-top: 0;  padding-top: 0;}
 .categories a:hover {  color: #777777;  transition: 0.8s;}
 .categories a:before {  font-family: "fontawesome";  content: "\f02d";  padding-right: 2px;}
 .categories.no-categories {  margin: 0;}
