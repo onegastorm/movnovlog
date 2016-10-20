@@ -278,7 +278,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "fontawesome";  content: "\f02d";}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #BBBBBB;  transition: 0.8s;}
 /* 何これ？ float使うのやめたからいらないよね・・・ */
-.hatena-module {  clear: both;  overflow: hidden;}
+/*.hatena-module {  clear: both;  overflow: hidden;}*/
 /* 最新記事とカテゴリ関係 */
 .hatena-urllist {  padding: 0 0 0 0;}
 .hatena-urllist li {  line-height: 2.0;}
