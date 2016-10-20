@@ -111,6 +111,7 @@ span.author.vcard { display: none;}
 .entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #CCFFCC;}
 /* 記事タイトル部 */
 .entry-header {  position: relative;  margin-left: 30px;  color: #DDDDDD;  background: #00FF00;}
+.entry-header a {  color: #DDDDDD;}
 /* 記事タイトル部タイトル系 */
 .entry-title {  display: inline;  font-size: 32px;  font-weight: normal;  color: #DDDDDD;  margin-right: 12px;  background: #FFFF00;}
 .entry-title a {  color: #DDDDDD;}
