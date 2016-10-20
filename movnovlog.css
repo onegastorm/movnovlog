@@ -28,9 +28,9 @@ a:hover {  color: #555555;  text-decoration: none;}
 /* 全体的な足跡。はてなキーワードに効いているようだ。 */
 a:visited {  color: #555555;  text-decoration: none;}
 /* こんなところが記事のタイトルの色を司っていたとは！ */
-h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {  color: #999999;}
-h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {  color: #333333;  transition: 0.8s;}
-h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited {  color: #999999;  text-decoration: none;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {  color: #BBBBBB;}
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {  color: #555555;  transition: 0.8s;}
+h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited {  color: #BBBBBB;  text-decoration: none;}
 /* さっぱりわからないがいらなそうなので消してみる。 */
 /*a.keyword {  text-decoration: none;  border-bottom: 1px dotted #999999;  color: #1a1a1a;}*/
 
