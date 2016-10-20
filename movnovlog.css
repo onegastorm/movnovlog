@@ -100,11 +100,11 @@ span.author.vcard { display: none;}
 
 /* ブログタイトル系。#mainに縛られてないみたい */
 /*#blog-title {  display: none;}*/
-#blog-title {  width: 640px;  margin: 0 0 0 0;  padding: 0 0 10px 0;  background: #EEEEEE;}
-#title {  font-size: 13px; font-weight:normal;  background: #DDDDDD;  margin: 0 0 0 30px;}
-#title a {  color: #BBBBBB;  background: #CCCCCC;}
+#blog-title {  width: 640px;  margin: 0 0 0 0;  padding: 0 0 5px 0;  background: #EEEEEE;}
+#title {  font-size: 13px; font-weight:normal;  margin: 0 0 0 30px;  background: #DDDDDD;}
+#title a {  color: #999999;  background: #CCCCCC;}
 /* タイトル下のリードらしい */
-#blog-description {  color: #BBBBBB;  font-size:28px;  font-weight: normal;  background: #FFFFFF;  margin: 0 0 0 30px;}
+#blog-description {  color: #999999;  font-size:28px;  font-weight: normal;  margin: 0 0 0 30px;  background: #BBBBBB;}
 
 /* Entry -------------------------------------------------- */
 
