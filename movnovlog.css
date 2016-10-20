@@ -107,7 +107,7 @@ span.author.vcard { display: none;}
 /* Entry -------------------------------------------------- */
 
 /* コンテンツ全体的な */
-.entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #EEEEEE;}
+.entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #FFFFFF;}
 /* 記事タイトル部 */
 .entry-header {  position: relative;  margin-left: 30px;  background: #00FF00;}
 /* 記事タイトル部タイトル系 */
@@ -421,13 +421,13 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* 一番上に戻るブタンだよ！　ここにもつけようよ！ */
 #jump-top-btn {  position: fixed;  top: 240px;  left: 0px;  width: 30px;  text-align: center;
-  color: $999999;  font-size: 24px;  background: #EEEEEE;}
+  color: $999999;  font-size: 24px;}
 #jump-top-btn a {  display: block;}
 #jump-top-btn a:hover {  color: #555555;  transition: 0.8s;}
 
 /* 一番下に進むブタンだよ！ */
 #jump-btm-btn {  position: fixed;  top: 320px;  left: 0px;  width: 30px;  text-align: center;  
-  color: $999999;  font-size: 24px;  background: #EEEEEE;}
+  color: $999999;  font-size: 24px;}
 #jump-btm-btn a {  display: block;}
 #jump-btm-btn a:hover {  color: #555555;  transition: 0.8s;}
 
