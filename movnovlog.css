@@ -76,10 +76,12 @@ h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited { 
   font-weight: bold;
 }
 */
-/* nehan & responsivook -------------------------------------------------- */
+/* nehan & responsivook 等いろいろ！ -------------------------------------------------- */
 
 /* 変換前のテキストを見せない。だいじ！（縦書文庫） */
 .nehan-vert-dangumi {  visibility: hidden;}
+/* 記事末尾のIDを非表示。らしいのだが効果なし？ */
+span.author.vcard { display: none;}
 
 /* Globalheader & Container - 全体的に -------------------------------------------------- */
 
@@ -89,23 +91,18 @@ h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited { 
 #container {  width: 640px;  background: #FF00FF;}
 /* メインカラム！ */
 #main {  width: 610px;}
-/*#main {  margin: 0 auto 0 auto;  width: 600px;}*/
-/* メインカラムの領域規定。こちらは失敗 */
-/*#container #content {  width: 940px}*/
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
 /*#container-inner {  padding: 0 0 0 0;}*/
 /* サイドバー！ */
 #box2 {}
-/* 記事末尾のIDを非表示。らしいのだが効果なし？ */
-span.author.vcard { display: none;}
 
 /* Main - Blogtitle -------------------------------------------------- */
 
 /* ブログタイトル系。#mainに縛られてないみたい */
 /*#blog-title {  display: none;}*/
-#blog-title {  width: 640px;  margin: 0 0 0 0;  background: #EEEEEE;}
-#title {  font-size: 13px; font-weight:normal;  background: #FFFFFF;  margin: 0 0 0 30px;}
-#title a {  color: #BBBBBB;}
+#blog-title {  width: 640px;  margin: 0 0 0 0;  padding: 0 0 10px 0;  background: #EEEEEE;}
+#title {  font-size: 13px; font-weight:normal;  background: #DDDDDD;  margin: 0 0 0 30px;}
+#title a {  color: #BBBBBB;  background: #CCCCCC;}
 /* タイトル下のリードらしい */
 #blog-description {  color: #BBBBBB;  font-size:28px;  font-weight: normal;  background: #FFFFFF;  margin: 0 0 0 30px;}
 
