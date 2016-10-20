@@ -31,6 +31,7 @@ body {
 .responsivook-nehan-wrap {  padding: 80px 0px 80px 0px;  margin: 0 0 0 0;  background: #FFFAFA;  color: #444444;}
 .rsponsivook-nehan-wrap::after {  content: ""; }
 
+/* ページャーを全体的に。 */
 .responsivook-pager {  text-align: center;  margin-bottom: 120px;}
 
 /* 何やねん */
