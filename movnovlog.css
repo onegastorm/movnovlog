@@ -187,7 +187,7 @@ span.author.vcard { display: none;}
 .entry-footer {  margin:0 0 0 0;  padding-left: 0;  background: #FFEEEE;  font-size: 24px;}
 /*.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}*/
 /* 文責と投稿時間だけ？ */
-.entry-footer-section {  display: none;  font-size: 18px;}
+.entry-footer-section {  display: none;}
 /*.entry-footer-section {  font-size: 80%;  color: #999999;}*/
 /*.entry-footer-section a {  text-decoration: none;}*/
 /* 投稿時間の装飾指定 */
