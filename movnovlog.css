@@ -274,7 +274,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}*/
 /* はてなモジュール・カテゴリー関係 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li {
-/*  display:inline-block;*/  font-size: 24px;  line-height: 48px;  color: #777777;  margin-right: 40px;}
+/*  display:inline-block;*/  font-size: 36px;  line-height: 48px;  color: #777777;  margin-right: 40px;}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "fontawesome";  content: "\f02d";}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #BBBBBB;  transition: 0.8s;}
