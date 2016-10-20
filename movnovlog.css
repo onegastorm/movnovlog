@@ -420,13 +420,13 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* jump ---------------------------------------- */
 
 /* 一番上に戻るブタンだよ！　ここにもつけようよ！ */
-#jump-top-btn {  position: fixed;/*  width: 30px;  height: 80px;*/  top: 240px;  left: 0px;  background: #333333;  display: block;}
 /*#jump-top-btn {  font-size: 24px;  color: #BBBBBB;  cursor: pointer;  background: rgba( 256, 256, 256, 0.5);
   position: absolute;  top: 50%;  left: 50%;
   -webkit-transform: translate(-50%,-50%);  -moz-transform: translate(-50%,-50%);  -ms-transform: translate(-50%,-50%);  -o-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);}*/
-#jump-top-btn {  font-size: 24px;  width: 30px;  text-align: center;}
-#jump-top-btn a {  display: block;  height: 80px;}
+#jump-top-btn {  position: fixed;  top: 240px;  left: 0px;  font-size: 24px;  width: 30px;  height: 80px;  text-align: center;  background: #333333;}
+#jump-top-btn a {  display: block;}
+#jump-btm-btn a:hover {  color: #777777;  transition: 0.8s;}
 
 
 /* 一番下に進むブタンだよ！ */
