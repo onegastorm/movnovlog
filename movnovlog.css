@@ -422,7 +422,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 一番上に戻るブタンだよ！　ここにもつけようよ！ */
 #jump-t {  position: fixed;  width: 30px;  height: 80px;  top: 240px;  left: 0px;  background: #333333;}
 #jump-top {  position:relative; text-align: center;  vertical-align: middle;}
-#jump-top-btn {  font-size: 24px;  color: #BBBBBB;  cursor: pointer;  background: rgba( 256, 256, 256, 0.5);}
+#jump-top-btn {  display:inline;  font-size: 24px;  color: #BBBBBB;  cursor: pointer;  background: rgba( 256, 256, 256, 0.5);}
 #jump-top-btn:hover {  color: #777777;  transition: 0.8s;}
 
 /* 一番下に進むブタンだよ！ */
