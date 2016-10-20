@@ -21,8 +21,10 @@ body {  color: #999999;  background: #00FFFF;
 }
 /* colorとかbackground-colorとか効いてないっぽい。 */
 html, body {/*  color:#FF0000;  background:#FF00FF;*//* この行は効いてなさげ */
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;}
-
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;
+/* border-boxを使いまぁす！ */
+  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  -o-box-sizing: border-box;  -ms-box-sizing: border-box;  box-sizing: border-box;
+}
 /* 全体的なリンク。 広告に効いているようだ。もっと読む（）とか。*/
 a {  color: #999999;  text-decoration: none;}
 /* 全体的なマウスオーバー。しかし広告には効いているがはてなキーワードには効いていないようだ。 */
