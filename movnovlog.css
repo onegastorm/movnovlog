@@ -86,11 +86,11 @@ span.author.vcard { display: none;}
 /* Globalheader & Container - 全体的に -------------------------------------------------- */
 
 /* グローバルヘッダ！ */
-#globalheader-container {  font-size: 13px;  width: 640px;}
+#globalheader-container {  font-size: 13px;  width: 640px; color: #00FFFF;}
 /* コンテンツのコンテナ！ */
-#container {  width: 640px;  background: #FF00FF;}
+#container {  width: 640px;  background: #FF00FF; color: #00FFFF;}
 /* メインカラム！ */
-#main {  width: 610px;}
+#main {  width: 610px; color: #00FFFF;}
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
 /*#container-inner {  padding: 0 0 0 0;}*/
 /* サイドバー！ */
