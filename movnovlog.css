@@ -119,7 +119,7 @@ span.author.vcard { display: none;}
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
 /* 記事タイトル部カテゴリブタン系 */
 .categories {  display: inline;  font-size: 18px;}
-.categories a {  color: #BBBBBB;  text-decoration: none;  background: #0000FF;}
+.categories a {  color: #BBBBBB;  text-decoration: none;  background: #FFFF00;}
 .categories a:hover {  color: #777777;  transition: 0.8s;}
 .categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 2px;}
 .categories.no-categories {  margin: 0;}
