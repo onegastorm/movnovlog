@@ -107,12 +107,12 @@ span.author.vcard { display: none;}
 #title {  font-size: 13px; font-weight:normal;  background: #FFFFFF;  margin: 0 0 0 30px;}
 #title a {  color: #BBBBBB;}
 /* タイトル下のリードらしい */
-#blog-description {  color: #BBBBBB;  font-size:24px;  font-weight: normal;  background: #FFFFFF;  margin: 0 0 0 30px;}
+#blog-description {  color: #BBBBBB;  font-size:28px;  font-weight: normal;  background: #FFFFFF;  margin: 0 0 0 30px;}
 
 /* Entry -------------------------------------------------- */
 
 /* 全体的な */
-.entry {  position: relative;  padding-bottom: 40px;  background: #CCFFCC;}
+.entry {  position: relative;  padding: 0 0 40px 0;  background: #CCFFCC;  margin: 0 0 0 0;}
 /* 記事タイトル部 */
 .entry-header {  position: relative;  margin-left:30px;  background: #FFFF00;}
 /* 記事タイトル部タイトル系 */
