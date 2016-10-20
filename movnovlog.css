@@ -99,7 +99,7 @@ span.author.vcard { display: none;}
 /* Main - Blogtitle -------------------------------------------------- */
 
 /* ブログタイトル系。#mainに縛られてないみたい */
-/*#blog-title {  display: none;}*/
+#blog-title {  display: none;}
 #blog-title {  width: 640px;  margin: 0 0 0 0;  padding: 0 0 5px 0;  background: #BBBBBB;}
 #title {  font-size: 13px; font-weight:normal;  margin: 0 0 0 30px;  background: #CCCCCC;}
 #title a {  color: #999999;  background: #DDDDDD;}
