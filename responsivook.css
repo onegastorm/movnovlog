@@ -47,14 +47,14 @@ body {
   -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
   transition: border .25s linear, color .25s linear, background-color .25s linear;}
 /* アイコンだよぉ！ - */
-.re-btn-nx:before {  font-family: "blogicon";  content: "\f006";  color: #777777;  font-size: 18px;}
+.re-btn-nx:before {  font-family: "blogicon";  content: "\f005";  color: #777777;  font-size: 18px;}
 
 /* 戻るブタン */
 .btn-bk {  width: 240px;  height: 80px;  display: inline-block;  zoom: 1;  text-align: center;  position: relative;
   -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
   transition: border .25s linear, color .25s linear, background-color .25s linear;}
 /* アイコンだよぉ！ - */
-.re-btn-bk:before {  font-family: "blogicon";  content: "\f005";  color: #777777;  font-size: 18px;}
+.re-btn-bk:before {  font-family: "blogicon";  content: "\f006";  color: #777777;  font-size: 18px;}
 
 /*
   .btn {
