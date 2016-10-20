@@ -104,17 +104,17 @@ span.author.vcard { display: none;}
 /* ブログタイトル系。#mainに縛られてないみたい */
 /*#blog-title {  display: none;}*/
 #blog-title {  width: 640px;  height: 80px;  margin-top: 0;  background: #EEEEEE;}
-#title {  font-size: 13px; font-weight:normal;  background: #FFFFFF;  margin: 0 0 0 40px;}
+#title {  font-size: 13px; font-weight:normal;  background: #FFFFFF;  margin: 0 0 0 30px;}
 #title a {  color: #BBBBBB;}
 /* タイトル下のリードらしい */
-#blog-description {  color: #BBBBBB;  font-size:16px;  font-weight: normal;  background: #FFFFFF;  margin: 0 0 0 40px;}
+#blog-description {  color: #BBBBBB;  font-size:16px;  font-weight: normal;  background: #FFFFFF;  margin: 0 0 0 30px;}
 
 /* Entry -------------------------------------------------- */
 
 /* 全体的な */
 .entry {  position: relative;  padding-bottom: 40px;  background: #CCFFCC;}
 /* 記事タイトル部 */
-.entry-header {  position: relative;  margin-left:40px;  background: #FFFF00;}
+.entry-header {  position: relative;  margin-left:30px;  background: #FFFF00;}
 /* 記事タイトル部タイトル系 */
 .entry-title {  display: inline;  font-size: 13px;  font-weight: normal;  margin: 0 12px 0px 40px;  background: #FF00FF;}
 /* 記事タイトル部日付ブタン系 */
