@@ -276,7 +276,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li {
   display:inline-block;  font-size: 36px;  line-height: 42px;  color: #777777;  margin-right: 40px;}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a{}
-.hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "blogicon";  content: "\f022";}
+.hatena-module-category .hatena-module-body ul.hatena-urllist li a:before {  font-family: "fontawesome";  content: "\f02d";}
 .hatena-module-category .hatena-module-body ul.hatena-urllist li a:hover{  color: #BBBBBB;  transition: 0.8s;}
 /* 何これ？ */
 .hatena-module {  clear: both;  overflow: hidden;}
@@ -284,11 +284,11 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 .hatena-urllist {  padding: 0 0 0 0;}
 .hatena-urllist li {  line-height: 2.0;}
 .hatena-urllist li a {  color: #777777;  text-decoration: none;}
-.recent-entries a:before {  font-family: "fontawesome";  content: "\f02d";  padding-right: 4px;}
+.recent-entries a:before {  font-family: "blogicon";  content: "\f029";  padding-right: 4px;}
 .recent-entries a:hover {  color: #BBBBBB;  text-decoration: none;  transition: 0.8s;}
 /*.hatena-module-category {  line-height: 1.0;}*/
 /* 最新記事の本文の文字の大きさを変えるという重要な任務 */
-.urllist-item-inner.recent-entries-item-inner {  font-size: 32px;/*  line-height: 32px;*/}
+.urllist-item-inner.recent-entries-item-inner {  font-size: 32px;  line-height: 32px;}
 /* アクセスランキングの本文の文字の大きさを変えるというかなりどうでも良い任務 */
 /*.urllist-item-inner.entries-access-ranking-item-inner {  font-size: 13px;}*/
 /* 段差作っちゃう */
