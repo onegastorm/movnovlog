@@ -23,7 +23,7 @@ body {
   -moz-user-select: none; }
 
 /* 本文表示部分について設定するものらしぃ */
-.responsivook-nehan-wrap {  padding: 120px 0px 120px 0px;  margin: 0 0 120px 30px;  color: #444444;  background: #FF00FF;}
+.responsivook-nehan-wrap {  padding: 120px 0px 120px 0px;  margin: 0 0 120px 30px;  color: #444444;  background: #CCFFCC;}
 /* よくわからないが、必要なものなんだろう・・・ */
 .rsponsivook-nehan-wrap::after {  content: "";}
 
