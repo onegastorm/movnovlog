@@ -272,6 +272,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 .hatena-module-profile .id a {  text-decoration: none;}
 .hatena-module-profile .profile-description p {  margin: 10px 0;}
 .hatena-follow-button-box {  display: inline-block;  margin: 0;  vertical-align: middle;}*/
+.hatena-module-profile .profile-description {  font-size: 100%;}
 /* はてなモジュール・カテゴリー関係 */
 .hatena-module-category .hatena-module-body ul.hatena-urllist li {
 /*  display:inline-block;*/  font-size: 36px;  line-height: 56px;  color: #777777;  margin-right: 40px;}
