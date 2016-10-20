@@ -34,6 +34,7 @@ body {
 .re-btn-bk:first-child {  margin-right: 0px;}
 /*.responsivook-btn:first-child {  margin-right: 0px;}*/
 /* ページャーの設定 */
+.responsivook-pager {  width: 640px;  text-align: right;}
 .responsivook-pager {/*  position: absolute;  top: 0;  left: 0;*/  width: 480px;  text-align: center;  margin-bottom: 120px;
 padding:right: 0;}
 /*.responsivook-pager {  position: absolute;  top: 0;  left: 0;  width: 80px;  text-align: left;}*/
