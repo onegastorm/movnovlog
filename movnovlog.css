@@ -257,6 +257,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 /*.hatena-module-category:before {  display: block;  clear: both;  content: "@";  visibility: hidden;}*/
 /*.recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@";  visibility: hidden;}*/
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
+/*.hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}*/
 /* 各要素のタイトル */
 .hatena-module-title {  display: block;/*  padding-bottom:10px;*/  border-bottom: solid 1px #555555;  background: #333333;}
 .hatena-module-title a {  color: #777777;  text-decoration: none;}
@@ -287,7 +288,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 .recent-entries a:hover {  color: #BBBBBB;  text-decoration: none;  transition: 0.8s;}
 /*.hatena-module-category {  line-height: 1.0;}*/
 /* 最新記事の本文の文字の大きさを変えるという重要な任務 */
-.urllist-item-inner.recent-entries-item-inner {  font-size: 24px;}
+.urllist-item-inner.recent-entries-item-inner {  font-size: 32px;}
 /* アクセスランキングの本文の文字の大きさを変えるというかなりどうでも良い任務 */
 /*.urllist-item-inner.entries-access-ranking-item-inner {  font-size: 13px;}*/
 /* 段差作っちゃう */
