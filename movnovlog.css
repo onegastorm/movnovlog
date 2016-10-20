@@ -108,14 +108,12 @@ span.author.vcard { display: none;}
 /* Entry -------------------------------------------------- */
 
 /* コンテンツ全体的な */
-.entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  color: #DDDDDD;  background: #CCFFCC;}
-.entry {  color: #DDDDDD;}
+.entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #CCFFCC;}
 /* 記事タイトル部 */
-.entry-header {  position: relative;  margin-left: 30px;  color: #DDDDDD;  background: #00FF00;}
-.entry-header a {  color: #DDDDDD;}
+.entry-header {  position: relative;  margin-left: 30px;  background: #00FF00;}
 /* 記事タイトル部タイトル系 */
-.entry-title {  display: inline;  font-size: 32px;  font-weight: normal;  color: #DDDDDD;  margin-right: 12px;  background: #FFFF00;}
-.entry-title a {  color: #DDDDDD;}
+.entry-title {  display: inline;  font-size: 32px;  font-weight: normal;  margin-right: 12px;  background: #FFFF00;}
+.entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5 { color: #DDDDDD;}
 /* 記事タイトル部日付ブタン系 */
 .date {  display: none;}
 /*.date {  position: absolute;  z-index: 100;  background: #AAAAFF;}*/
@@ -139,7 +137,7 @@ span.author.vcard { display: none;}
 
 /* entry-content ---------------------------------------- */
 /* 記事本文本体らしいです。boilerplateからのこぴぺです。しかし縦書文庫のほうで規定しているようすなのでシカトです。 */
-
+/*
 .entry-content {  text-align: center;}
 .entry-content p {  margin: 0 0 2em 0;  font-size: 13px;}
 .entry-content img {  max-width: 100%;  max-height: 1280px;  display: block;  margin: 0 auto 2em;  line-height: 1;}
@@ -179,7 +177,7 @@ span.author.vcard { display: none;}
   font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
 }
 .entry-content .hatena-asin-detail li {  line-height: 1.4;}
-
+*/
 /* entry-footer ---------------------------------------- */
 
 /* 記事のフッターの領域規定 */
