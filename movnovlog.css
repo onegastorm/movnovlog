@@ -284,7 +284,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 .hatena-urllist {  padding: 0 0 0 0;}
 .hatena-urllist li {  line-height: 2.0;}
 .hatena-urllist li a {  color: #777777;  text-decoration: none;}
-.recent-entries a:before {  font-family: "blogicon";  content: "\f029";  padding-right: 4px;}
+.recent-entries a:before {  font-family: "fontawesome";  content: "\f02d";  padding-right: 4px;}
 .recent-entries a:hover {  color: #BBBBBB;  text-decoration: none;  transition: 0.8s;}
 /*.hatena-module-category {  line-height: 1.0;}*/
 /* 最新記事の本文の文字の大きさを変えるという重要な任務 */
