@@ -438,10 +438,27 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #box2-inner {  width: 100%;}
 .hatena-module {  width: 100%;  float: none;}
 .entry-header-menu {  top: -30px;  left: 0px;}
+}*/
+
+/* Media Queries - Smartphone */
+@media (max-width: 320px) {
+#globalheader-container {  width: 320px;}
+#container {  width: 320px;}
+#main {  width: 320px;}
+/* entry-footer */
+.entry-footer {  margin:0 2px 0 2px;}
+#box2 {  width: 320px}
+#box2-inner {  width: 320px;}
+#box3 {  width: 100%}
+#footer {  width: 320px}
+/* jump */
+#jump-top {  width: 320px;}
+#jump-btm {  width: 320px;}
+/* hatena-module */
+.hatena-module {  width: 320px;}
+/* page-about  */
+.page-about .entry-content {  padding: 80px 30px 20px 30px;}
+/* page-archive */
+.page-archive #main {  width: 320px;)
 }
 
-/* Media Queries - Smartphone *//*
-@media (max-width: 480px) {
-
-}
-*/
