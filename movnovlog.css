@@ -295,6 +295,27 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 /*.hatena-module-category {  vertical-align: bottom;}*/
 /*.hatena-module-recent-entries:after {  display: block;  height: 40px;  clear: both;  content: "@";  visibility: hidden;}*/
 
+
+
+
+
+
+
+
+.hatena-urllist {font-size: 100%;}
+.urllist-item {font-size: 100%;}
+.urllist-item li{font-size: 100%;}
+.urllist-title-link {font-size: 100%;}
+
+
+
+
+
+
+
+
+
+
 /* search-box (hatena-module) ---------------------------------------- */
 /* つ、使わないんだからね！ */
 /*.hatena-module-search-box .search-form {  border: none;  background: #f5f5f5;  width: 200px;  position: relative;}*/
