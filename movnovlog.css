@@ -99,21 +99,20 @@ span.author.vcard { display: none;}
 /* Main - Blogtitle -------------------------------------------------- */
 
 /* ブログタイトル系。#mainに縛られてないみたい */
-#blog-title {  display: none;}
+#blog-title {  display: none;}/*
 #blog-title {  width: 640px;  margin: 0 0 0 0;  padding: 0 0 5px 0;  background: #BBBBBB;}
 #title {  font-size: 13px; font-weight:normal;  margin: 0 0 0 30px;  background: #CCCCCC;}
 #title a {  color: #999999;  background: #DDDDDD;}
-/* タイトル下のリードらしい */
-#blog-description {  color: #999999;  font-size:32px;  font-weight: normal;  margin: 0 0 0 30px;  background: #EEEEEE;}
+#blog-description {  color: #999999;  font-size:32px;  font-weight: normal;  margin: 0 0 0 30px;  background: #EEEEEE;}*/
 
 /* Entry -------------------------------------------------- */
 
-/* 全体的な */
+/* コンテンツ全体的な */
 .entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #CCFFCC;}
 /* 記事タイトル部 */
-.entry-header {  position: relative;  margin-left:30px;  background: #FFFF00;}
+.entry-header {  position: relative;  margin-left: 30px;  background: #FFFF00;}
 /* 記事タイトル部タイトル系 */
-.entry-title {  display: inline;  font-size: 24px;  font-weight: normal;  margin: 0 12px 0 0;  background: #00FF00;}
+.entry-title {  display: inline;  font-size: 32px;  font-weight: normal;  margin: 0 12px 0 0;  background: #00FF00;}
 /* 記事タイトル部日付ブタン系 */
 .date {  display: none;}
 /*.date {  position: absolute;  z-index: 100;  background: #AAAAFF;}*/
