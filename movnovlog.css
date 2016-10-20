@@ -420,7 +420,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* jump ---------------------------------------- */
 
 /* 一番上に戻るブタンだよ！　ここにもつけようよ！ */
-#jump-top {  position: fixed;  width: 640px;/*  height: 0px;*/  text-align: center;  top: 0;  background: #999999;}
+#jump-top {  position: fixed;  width: 30px;  height: 80px;  text-align: center;  top: 120;  left: 0;  background: #999999;}
 #jump-top-btn {  font-size: 24px;  color: #BBBBBB;  cursor: pointer;  background: rgba( 256, 256, 256, 0.5);}
 #jump-top-btn:hover {  color: #777777;  transition: 0.8s;}
 
