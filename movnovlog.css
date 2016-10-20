@@ -288,7 +288,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 .recent-entries a:hover {  color: #BBBBBB;  text-decoration: none;  transition: 0.8s;}
 /*.hatena-module-category {  line-height: 1.0;}*/
 /* 最新記事の本文の文字の大きさを変えるという重要な任務 */
-.urllist-item-inner.recent-entries-item-inner {  font-size: 32px;  line-height: 32px;}
+.urllist-item-inner.recent-entries-item-inner {  font-size: 32px;/*  line-height: 32px;*/}
 /* アクセスランキングの本文の文字の大きさを変えるというかなりどうでも良い任務 */
 /*.urllist-item-inner.entries-access-ranking-item-inner {  font-size: 13px;}*/
 /* 段差作っちゃう */
