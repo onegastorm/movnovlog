@@ -129,7 +129,7 @@ span.author.vcard { display: none;}
 .categories a:before {  font-family: "blogicon";  content: "\f022";  padding-right: 2px;}
 .categories.no-categories {  margin: 0;}
 /* 編集ボタン系 */
-.entry-header-menu {  position: fixed;  top: 50px;  left: -50px;  width: 80px;  background: rgba( 256, 256, 256, 0.0);}
+.entry-header-menu {  position: fixed;  top: 48px;  left: -52px;  width: 80px;  background: rgba( 256, 256, 256, 0.0);}
 .entry-header-menu a {  color: #999999;  text-decoration: none;  background: rgba( 256, 256, 256, 0.0);}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
   line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 1px 12px;  cursor: pointer;
