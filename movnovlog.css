@@ -103,7 +103,7 @@ span.author.vcard { display: none;}
 
 /* ブログタイトル系。#mainに縛られてないみたい */
 /*#blog-title {  display: none;}*/
-#blog-title {  width: 640px;  height: 80px;  margin: 0 0 0 0;  background: #EEEEEE;}
+#blog-title {  width: 640px;  margin: 0 0 0 0;  background: #EEEEEE;}
 #title {  font-size: 13px; font-weight:normal;  background: #FFFFFF;  margin: 0 0 0 30px;}
 #title a {  color: #BBBBBB;}
 /* タイトル下のリードらしい */
