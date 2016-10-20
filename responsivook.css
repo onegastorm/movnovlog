@@ -34,21 +34,21 @@ body {
 .re-btn-bk:first-child {  margin-right: 0px;}
 /*.responsivook-btn:first-child {  margin-right: 0px;}*/
 /* ページャーの設定 */
-.responsivook-pager {  position: absolute;  top: 400px;  left: 0;  width: 30px;  text-align: left;  font-size: 18px;}
+.responsivook-pager {  position: absolute;  top: 480px;  left: 0;  width: 30px;  text-align: left;  font-size: 18px;}
 /*.responsivook-pager {  text-align: center; }*/
 /* 何やねん */
 .btn-nx,.btn-nx a {  text-decoration: none;}
 .btn-bk,.btn-bk a {  text-decoration: none;}
 /*.btn,.btn a {  text-decoration: none;}*/
 
-/* 進むブタン */
-.btn-nx {  width: 30px;  height: 300px;  display: inline-block;  zoom: 1;  text-align: center;  position: relative;
+/* 戻るブタン */
+.btn-nx {  width: 30px;  height: 200px;  display: inline-block;  zoom: 1;  text-align: center;  position: relative;
   -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
   transition: border .25s linear, color .25s linear, background-color .25s linear;}
 /* アイコンだよぉ！ - */
 .re-btn-nx:before {  font-family: "blogicon";  content: "\f006";  color: #777777;  font-size: 18px;}
 
-/* 戻るブタン */
+/* 進むブタン */
 .btn-bk {  width: 30px;  height: 200px;  display: inline-block;  zoom: 1;  text-align: center;  position: relative;
   -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
   transition: border .25s linear, color .25s linear, background-color .25s linear;}
