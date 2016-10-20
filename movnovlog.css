@@ -259,12 +259,13 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
 /*.hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}*/
 
+/*
 #target {
     position: absolute;
     width: 100px;
     height: 100px;
     background: #5EA9F4;
-}
+}*/
 
 
 /* 各要素のタイトル */
