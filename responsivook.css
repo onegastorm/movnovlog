@@ -22,10 +22,10 @@ body {
   -webkit-tap-highlight-color: transparent;
   -moz-user-select: none; }
 
-
-
-.responsivook-btn:first-child {
-  margin-right: 20px; }
+/* ブタンの間のスペースですね。 */
+.re-btn-nx:first-child {  margin-right: 0px;}
+.re-btn-bk:first-child {  margin-right: 0px;}
+/*.responsivook-btn:first-child {  margin-right: 0px;}*/
 
 .responsivook-divider {
   border-top: 1px solid rgba(34, 36, 38, 0.15);
