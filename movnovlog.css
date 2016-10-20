@@ -16,14 +16,10 @@ body {  color: #999999;  background: #00FFFF;
   -moz-user-select: none;  -ms-user-select: none;  -khtml-user-select: none;  -webkit-user-select: none;  -webkit-touch-callout: none;}
 /* 文字の大きさの自動調整機能を効かなくする呪文らしいです。 */
   -webkit-text-size-adjust: 100%;  -moz-text-size-adjust: 100%;  -ms-text-size-adjust: 100%;  -o-text-size-adjust: 100%;  text-size-adjust: 100%;
-/* border-boxを使いまぁす！ */
-  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  -o-box-sizing: border-box;  -ms-box-sizing: border-box;  box-sizing: border-box;
 }
 /* colorとかbackground-colorとか効いてないっぽい。 */
 html, body {/*  color:#FF0000;  background:#FF00FF;*//* この行は効いてなさげ */
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;
-/* border-boxを使いまぁす！ */
-  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  -o-box-sizing: border-box;  -ms-box-sizing: border-box;  box-sizing: border-box;
 }
 /* 全体的なリンク。 広告に効いているようだ。もっと読む（）とか。*/
 a {  color: #999999;  text-decoration: none;}
@@ -227,17 +223,9 @@ span.author.vcard { display: none;}
 .comment-metadata {  font-size: 18px;  color: #999999;/*  margin: 0;*/ text-align: right;}
 /*.comment-metadata a {  color: #000000;}*/
 
-/* 画面効果らしい */
-.nehan-body {  opacity: 0;  margin: 0 auto;
-  -webkit-transition: opacity 0.2s ease-in;  -moz-transition: opacity 0.2s ease-in;  -ms-transition: opacity 0.2s ease-in;  -o-transition: opacity 0.2s ease-in;  transition: opacity 0.2s ease-in;}
-.responsivook-fadein {  opacity: 1;}
-
 /* コメントブタンの領域を規定します。 */
 .leave-comment-title {
-/*  margin-left: 30px;  font-size: 18px;  color: #BBBBBB;*/
-  width: 30px;  height: 160px;  display: inline-block;  zoom: 1;  text-align: center;  position: relative;
-  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
-  transition: border .25s linear, color .25s linear, background-color .25s linear;
+  margin-left: 30px;  font-size: 18px;  color: #BBBBBB;
 /*  display: inline-block;  *display: inline;  *zoom:1;*/
 /*  margin-left: 28px;  line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 2px 10px;*/
 /*  cursor: pointer;  text-decoration: none;*/
