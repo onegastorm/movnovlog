@@ -184,7 +184,7 @@ span.author.vcard { display: none;}
 /* entry-footer ---------------------------------------- */
 
 /* 記事のフッターの領域規定 */
-.entry-footer {  margin:0 195px 0 195px;/*  padding-bottom: 60px;*/  background: #FFEEEE;}
+.entry-footer {  margin:0 0px 0 30px;/*  padding-bottom: 60px;*/  background: #FFEEEE;}
 /*.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}*/
 /* 文責と投稿時間だけ？ */
 .entry-footer-section {  display: none;}
