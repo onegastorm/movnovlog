@@ -280,9 +280,9 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 /* 何これ？ float使うのやめたからいらないよね・・・ */
 /*.hatena-module {  clear: both;  overflow: hidden;}*/
 /* 最新記事とカテゴリ関係 */
-.hatena-urllist {/*  padding: 0 0 0 0;*/}
-.hatena-urllist li {/*  line-height: 2.0;*/}
-.hatena-urllist li a {  color: #777777;  text-decoration: none;}
+.hatena-urllist {  padding: 0 0 0 0;}
+.hatena-urllist li {  line-height: 1.5;}
+.hatena-urllist li a {  color: #777777;/*  text-decoration: none;*/}
 .recent-entries a:before {  font-family: "blogicon";  content: "\f029";  padding-right: 4px;}
 .recent-entries a:hover {  color: #BBBBBB;/*  text-decoration: none;*/  transition: 0.8s;}
 /*.hatena-module-category {  line-height: 1.0;}*/
