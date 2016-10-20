@@ -294,21 +294,22 @@ var Responsivook = (function(){
       pageHeight:page_height,
       fontSize:font_size,
       fontFamily:font_family,
-/*
+
       leftColor:right_color,
       rightColor:left_color,
       leftLabel:right_label,
       rightLabel:left_label,
       leftType:right_type,
       rightType:left_type,
-*/
 
+/*
       leftColor:left_color,
       rightColor:right_color,
       leftLabel:left_label,
       rightLabel:right_label,
       leftType:left_type,
       rightType:right_type,
+*/
       styles:styles,
       theme:theme
     };
