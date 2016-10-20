@@ -421,13 +421,13 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* 一番上に戻るブタンだよ！　ここにもつけようよ！ */
 #jump-top-btn {  position: fixed;  top: 240px;  left: 0px;  width: 30px;  text-align: center;
-  color: $999999;  font-size: 24px;  background: #DDDDDD;}
+  color: $999999;  font-size: 24px;  background: #EEEEEE;}
 #jump-top-btn a {  display: block;}
 #jump-top-btn a:hover {  color: #555555;  transition: 0.8s;}
 
 /* 一番下に進むブタンだよ！ */
-#jump-btm-btn {  position: fixed;  top: 240px;  left: 0px;  width: 30px;  text-align: center;  
-  color: $999999;  font-size: 24px;  background: #DDDDDD;}
+#jump-btm-btn {  position: fixed;  top: 320px;  left: 0px;  width: 30px;  text-align: center;  
+  color: $999999;  font-size: 24px;  background: #EEEEEE;}
 #jump-btm-btn a {  display: block;}
 #jump-btm-btn a:hover {  color: #555555;  transition: 0.8s;}
 
