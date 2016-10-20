@@ -104,14 +104,17 @@ body {
 .btn.concrete:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }*/
 
 
-.btn i {
-  padding-right: 0.8em;
-  line-height: 22px; }
+/* ようわかりまへんわ -------------------------------------------------- */
 
-.icon-only {
-  padding: 1em; }
+.btn-nx i {  padding-right: 0.8em;  line-height: 22px;}
+.icon-only-nx {  padding: 1em;}
+.icon-only-nx i {  padding-right: 0;  font-size: 22px;  line-height: 22px;}
 
-.icon-only i {
-  padding-right: 0;
-  font-size: 22px;
-  line-height: 22px; }
+.btn-bk i {  padding-right: 0.8em;  line-height: 22px;}
+.icon-only-bk {  padding: 1em;}
+.icon-only-bk i {  padding-right: 0;  font-size: 22px;  line-height: 22px;}
+/*
+.btn i {  padding-right: 0.8em;  line-height: 22px; }
+.icon-only {  padding: 1em; }
+.icon-only i {  padding-right: 0;  font-size: 22px;  line-height: 22px; }
+*/
