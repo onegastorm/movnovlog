@@ -23,7 +23,7 @@ body {
   -moz-user-select: none; }
 
 /* 本文表示部分について設定するものらしぃ */
-.responsivook-nehan-wrap {  padding: 80px 0px 80px 0px;  margin: 0 0 0 0;  background: #FFFAFA;  color: #44FF44;}
+.responsivook-nehan-wrap {  padding: 80px 0px 80px 0px;  margin: 0 0 0 0;  background: #FFFAFA;  color: #444444;}
 /* よくわからないが、必要なものなんだろう・・・ */
 .rsponsivook-nehan-wrap::after {  content: "";}
 
@@ -34,7 +34,8 @@ body {
 .re-btn-bk:first-child {  margin-right: 0px;}
 /*.responsivook-btn:first-child {  margin-right: 0px;}*/
 /* ページャーの設定 */
-.responsivook-pager {/*  position: absolute;  top: 0;  left: 0;*/  width: 480px;  text-align: center;  margin-bottom: 120px;}
+.responsivook-pager {/*  position: absolute;  top: 0;  left: 0;*/  width: 480px;  text-align: center;  margin-bottom: 120px;
+padding:right: 0;}
 /*.responsivook-pager {  position: absolute;  top: 0;  left: 0;  width: 80px;  text-align: left;}*/
 /*.responsivook-pager {  text-align: center; }*/
 /* 何やねん */
