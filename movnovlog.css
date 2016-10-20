@@ -392,6 +392,17 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .breadcrumb a {  font-size: 24px;  color: #DDDDDD;  text-decoration: none;  margin-left: 17px;}
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 
+
+/* パンくず（カテゴリーページで表示されます） *//*
+#top-box {
+  margin: 10px auto 20px;
+  font-size: 90%;
+}
+#top-box .breadcrumb {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}*/
+
 /* jump ---------------------------------------- */
 
 /* 一番上に戻るブタンだよ！　ここにもつけようよ！ */
