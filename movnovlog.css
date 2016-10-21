@@ -437,6 +437,12 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 #jump-btm-btn a {  display: block;}
 #jump-btm-btn:hover {  color: #555555;  transition: 0.8s;}
 
+/* メニューブタンだよ！ */
+#jump-hom-btn {  position: fixed;  top: 520px;  left: 0px;  width: 30px;  text-align: center;  
+  color: #999999;  font-size: 24px;}
+#jump-hom-btn a {  display: block;}
+#jump-hom-btn:hover {  color: #555555;  transition: 0.8s;}
+
 /* media queries をインポートするよ！ boilerplateからのこぴぺだけどね！ -------------------------------------------------- */
 
 /* Media Queries - Retina Display */
