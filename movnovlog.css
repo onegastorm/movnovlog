@@ -359,7 +359,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* 記事数値とか */
 .page-about {}
-.page-about dd {  font-size: 24px;  margin: 0 0 0 0;}
+.page-about dd {  font-size: 24px;  margin: 0 0 160px 0;}
 /* ブログ投稿件数とか */
 .page-about dt {  font-size: 20px;  color: #BBBBBB;  padding: 40px 0 0 0;}
 /* 上下にマージンが効かないとか。 */
