@@ -10,7 +10,7 @@
 /* Common - 全体的に ----------------------------------------*/
 
 /* colorとかbackground-colorとかは効いてるっぽい。 */
-body {  color: #999999;  background: #00FFFF;
+body {  color: #999999;  background: #FFFFFF;
   font: 15px/1.6 "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;
 /* テキストを選択できなくする呪文らしいです。 */
   -moz-user-select: none;  -ms-user-select: none;  -khtml-user-select: none;  -webkit-user-select: none;  -webkit-touch-callout: none;}
@@ -85,7 +85,7 @@ span.author.vcard { display: none;}
 /* Globalheader & Container - 全体的に -------------------------------------------------- */
 
 /* グローバルヘッダ！ */
-#globalheader-container {  width: 640px;  background: #000000;}
+#globalheader-container {  width: 640px;  background: #FFFFFF;}
 /* コンテンツのコンテナ！ */
 #container {  width: 640px;  background: #FFFFFF;}
 /* メインカラム！ */
