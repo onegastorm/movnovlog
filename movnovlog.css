@@ -353,8 +353,11 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
+
 #footer .services {  position: relative;}
 #footer .services a:hover {  cursor: default;}
+#footer .services:before {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>"}
+
 
 /* page-about ---------------------------------------- */
 
