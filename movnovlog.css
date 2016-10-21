@@ -371,7 +371,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* archive ---------------------------------------- */
 
 /* アーカイブコーナー全体。むかつくことに広告の上にマージンできるんですわ */
-.page-archive #main {/*  width: 530px;*/  font-size: 24px;  margin: 0 10px 0 70px;  background: #EEFFEE;}
+.page-archive #main {  width: 530px;  font-size: 24px;  margin: 0 10px 0 70px;  background: #EEFFEE;}
 /* 月別一覧のタイトル文字 */
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
 
@@ -402,9 +402,9 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* パンくず関係 */
 .breadcramb {  display: none;}
-.breadcrumb {  font-size: 28px;  color: #999999;  width: 640px;  margin: 0 auto 40px auto;  background: #FFEEEE;}
+/*.breadcrumb {  font-size: 28px;  color: #999999;  width: 640px;  margin: 0 auto 40px auto;  background: #FFEEEE;}
 .breadcrumb a {  font-size: 24px;  color: #DDDDDD;  text-decoration: none;  margin-left: 17px;}
-.breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
+.breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}*/
 
 
 /* パンくず（カテゴリーページで表示されます） *//*
