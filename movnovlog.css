@@ -354,24 +354,6 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* IDとはてなリンクを1列に！ */
 /*#footer address,#footer .services {  display: inline;  padding-right: 1em;}*/
 
-#footer .services {  position: relative;}
-#footer .services a:hover {  cursor: default;}
-
-
-p.copyright{text-align:center;}
-div.footer{width:out;}
-
-/*
-#footer .address p:before {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
-#footer .address p:after {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
-#footer .services p:before {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
-#footer .services p:after {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
-footer address p:before {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
-footer address p:after {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
-#footer p:before {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
-#footer p:after {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
-*/
-
 /* page-about ---------------------------------------- */
 
 /* 記事数値とか */
@@ -388,7 +370,7 @@ footer address p:after {  content: "&copy; 2016 <a href="http://movnovlog.hatena
 /* archive ---------------------------------------- */
 
 /* アーカイブコーナー全体。むかつくことに広告の上にマージンできるんですわ */
-.page-archive #main {  width: 530px;  font-size: 32px;  margin: 0 10px 0 70px;  background: #EEFFEE;}
+.page-archive #main {  width: 530px;  font-size: 32px;  margin: 0 0 0 70px;  background: #EEFFEE;}
 /* 月別一覧のタイトル文字 */
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
 
