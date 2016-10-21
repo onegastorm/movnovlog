@@ -356,9 +356,12 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 #footer .services {  position: relative;}
 #footer .services a:hover {  cursor: default;}
-#footer .services p:before {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
 
+#footer .services p:before {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
+#footer .services p:after {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
+footer address p:before {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
 footer address p:after {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
+#footer p:before {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
 #footer p:after {  content: "&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a>";}
 
 /* page-about ---------------------------------------- */
