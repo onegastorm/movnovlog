@@ -421,7 +421,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* ホームブタンだよ！ */
 #jump-hom-btn {  position: fixed;  top: 280px;  left: 0px;  width: 30px;  text-align: center;  
-  color: #999999;  font-size: 24px;}
+  color: #999999;  font-size: 24px;  cursor: pointer}
 #jump-hom-btn a {  display: block;}
 #jump-hom-btn:hover {  color: #555555;  transition: 0.8s;}
 
