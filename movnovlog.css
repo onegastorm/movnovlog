@@ -364,7 +364,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .page-about dt {  font-size: 20px;  color: #BBBBBB;  padding: 40px 0 0 0;}
 /* 上下にマージンが効かないとか。 */
 .page-about .entry-content {  text-align: left;  padding: 60px 0px 20px 60px;}
-/* サムネイルですかね */
+/* サムネですかね */
 /*.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}*/
 /*.page-about .entry-content img {  display: none;}*/
 
