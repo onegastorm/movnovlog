@@ -248,7 +248,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 /* sidebar ---------------------------------------- */
 
 /* サイドバーの領域 */
-#box2 {  width: 640px;  font-size: 32px;  color: #777777;  padding: 60px 0 0 0;  background: #333333;}
+#box2 {  width: 640px;  font-size: 32px;  color: #777777;  padding: 60px 0 60px 0;  background: #333333;}
 /* 段組やらないよー！ */
 .hatena-module {  width: 530px;  margin: 0px 40px 0px 70px;}
 /* 段組するよー！ */
@@ -358,8 +358,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* page-about ---------------------------------------- */
 
 /* 記事数値とか */
-.page-about {}
-.page-about dd {  font-size: 24px;  margin: 0 0 160px 0;}
+.page-about {  font-size: 28px;}
+.page-about dd {  margin: 0 0 160px 0;}
 /* ブログ投稿件数とか */
 .page-about dt {  font-size: 20px;  color: #BBBBBB;  padding: 40px 0 0 0;}
 /* 上下にマージンが効かないとか。 */
