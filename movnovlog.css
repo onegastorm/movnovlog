@@ -89,7 +89,7 @@ span.author.vcard { display: none;}
 /* コンテンツのコンテナ！ */
 #container {  width: 640px;  background: #FF00FF;}
 /* メインカラム！ */
-#main {  width: 640px;  text-align: right;}
+#main {  width: 640px;}
 /*#main {  width: 610px;  text-align: right;}*/
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
 /*#container-inner {  padding: 0 0 0 0;}*/
