@@ -250,7 +250,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 /* サイドバーの領域 */
 #box2 {  width: 640px;  font-size: 32px;  color: #777777;  padding: 60px 0 60px 0;  background: #333333;}
 /* 段組やらないよー！ */
-.hatena-module {  width: 560px;  margin: 0px 60px 0px 40px;}
+.hatena-module {  width: 560px;  margin: 0px 40px 0px 60px;}
 /* 段組するよー！ */
 /*.hatena-module {  display: inline-block;  vertical-align: bottom;  margin-left: 50px;  width: 350px;}*/
 /*.hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}*/
