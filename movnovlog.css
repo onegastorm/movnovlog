@@ -427,13 +427,13 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* 本文ブタンだよ！ */
 #jump-txt-btn {  position: fixed;  top: 360px;  left: 0px;  width: 30px;  text-align: center;  
-  color: #999999;  font-size: 24px;}
+  color: #999999;  font-size: 24px;  background: #333333;}
 #jump-txt-btn a {  display: block;  background: #333333;}
 #jump-txt-btn:hover {  color: #555555;  transition: 0.8s;}
 
 /* メニューブタンだよ！ */
 #jump-btm-btn {  position: fixed;  top: 440px;  left: 0px;  width: 30px;  text-align: center;  
-  color: #999999;  font-size: 24px;}
+  color: #999999;  font-size: 24px;  background: #333333;}
 #jump-btm-btn a {  display: block;  background: #333333;}
 #jump-btm-btn:hover {  color: #555555;  transition: 0.8s;}
 
