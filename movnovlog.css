@@ -370,7 +370,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* archive ---------------------------------------- */
 
 /* アーカイブコーナー全体。むかつくことに広告の上にマージンできるんですわ */
-.page-archive #main {  width: 530px;  font-size: 32px;  margin: 0 0 0 70px;  background: #EEFFEE;}
+.page-archive #main {  width: 610px;  font-size: 32px;  background: #EEFFEE;}
 /* 月別一覧のタイトル文字 */
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
 
@@ -381,7 +381,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .page-archive .archive-entries .entry-title  a {  color: #777777;  font-size: 32px;  background: #00FFFF;}
 .page-archive .archive-entries .entry-title  a:hover {  color: #333333;  transition: 0.8s;}
 /* カテゴリ一覧のコンテンツを包括して扱う。広告の下が基準点。.archive-entryの方が値が大きい場合無視される。 */
-.page-archive .archive-entries {  margin-bottom: 160px;  color: #999999;}
+.page-archive .archive-entries {/*  margin-bottom: 160px;*/  color: #999999;  margin: 0 40px 160px 40px;}
 /* カテゴリ一覧の3要素をセットで扱う（topを広げると段間も広がる）が、広告の下が基準点。 */
 .page-archive .archive-entries .archive-entry {  font-size: 24px;  margin-top:40px;  background: #DDDDDD;}
 /* 何？ */
