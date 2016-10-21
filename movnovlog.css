@@ -85,7 +85,7 @@ span.author.vcard { display: none;}
 /* Globalheader & Container - 全体的に -------------------------------------------------- */
 
 /* グローバルヘッダ！ */
-#globalheader-container {  font-size: 13px;  width: 640px;}
+#globalheader-container {/*  font-size: 13px;*/  width: 640px;}
 /* コンテンツのコンテナ！ */
 #container {  width: 640px;  background: #FF00FF;}
 /* メインカラム！ */
