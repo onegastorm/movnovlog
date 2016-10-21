@@ -22,9 +22,9 @@ body {
   -webkit-tap-highlight-color: transparent;
   -moz-user-select: none; }
 
+.responsivook {  width: 500px;}
 /* 本文表示部分について設定するものらしぃ */
-.responsivook-nehan-wrap {  padding: 40px 0px 120px 0px;  margin: 160px 0 120px 30px;  color: #444444;  background: #CCFFCC;
-width: 500px;}
+.responsivook-nehan-wrap {  padding: 40px 0px 120px 0px;  margin: 160px 0 120px 30px;  color: #444444;  background: #CCFFCC;}
 /* よくわからないが、必要なものなんだろう・・・ */
 .rsponsivook-nehan-wrap::after {  content: "";}
 
