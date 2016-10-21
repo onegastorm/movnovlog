@@ -419,29 +419,29 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* jump ---------------------------------------- */
 
-/* ホームブタンだよ！　ここにもつけようよ！ */
-#jump-top-btn {  position: fixed;  top: 280px;  left: 0px;  width: 30px;  text-align: center;
+/* ホームブタンだよ！ */
+#jump-hom-btn {  position: fixed;  top: 280px;  left: 0px;  width: 30px;  text-align: center;  
+  color: #999999;  font-size: 24px;}
+#jump-hom-btn a {  display: block;}
+#jump-hom-btn:hover {  color: #555555;  transition: 0.8s;}
+
+/* トップブタンだよ！　ここにもつけようよ！ */
+#jump-top-btn {  position: fixed;  top: 360px;  left: 0px;  width: 30px;  text-align: center;
   color: #999999;  font-size: 24px;}
 #jump-top-btn a {  display: block;}
 #jump-top-btn:hover {  color: #555555;  transition: 0.8s;}
 
 /* 本文ブタンだよ！ */
-#jump-txt-btn {  position: fixed;  top: 360px;  left: 0px;  width: 30px;  text-align: center;  
+#jump-txt-btn {  position: fixed;  top: 440px;  left: 0px;  width: 30px;  text-align: center;  
   color: #999999;  font-size: 24px;}
 #jump-txt-btn a {  display: block;}
 #jump-txt-btn:hover {  color: #555555;  transition: 0.8s;}
 
 /* メニューブタンだよ！ */
-#jump-btm-btn {  position: fixed;  top: 440px;  left: 0px;  width: 30px;  text-align: center;  
+#jump-btm-btn {  position: fixed;  top: 520px;  left: 0px;  width: 30px;  text-align: center;  
   color: #999999;  font-size: 24px;}
 #jump-btm-btn a {  display: block;}
 #jump-btm-btn:hover {  color: #555555;  transition: 0.8s;}
-
-/* メニューブタンだよ！ */
-#jump-hom-btn {  position: fixed;  top: 520px;  left: 0px;  width: 30px;  text-align: center;  
-  color: #999999;  font-size: 24px;}
-#jump-hom-btn a {  display: block;}
-#jump-hom-btn:hover {  color: #555555;  transition: 0.8s;}
 
 /* media queries をインポートするよ！ boilerplateからのこぴぺだけどね！ -------------------------------------------------- */
 
