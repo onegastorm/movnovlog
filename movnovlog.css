@@ -421,20 +421,20 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* ホームブタンだよ！　ここにもつけようよ！ */
 #jump-top-btn {  position: fixed;  top: 280px;  left: 0px;  width: 30px;  text-align: center;
-  color: #999999;  font-size: 24px;  background: #333333;}
+  color: #999999;  font-size: 24px;}
 #jump-top-btn a {  display: block;}
 #jump-top-btn:hover {  color: #555555;  transition: 0.8s;}
 
 /* 本文ブタンだよ！ */
 #jump-txt-btn {  position: fixed;  top: 360px;  left: 0px;  width: 30px;  text-align: center;  
-  color: #999999;  font-size: 24px;  background: #333333;}
-#jump-txt-btn a {  display: block;  background: #333333;}
+  color: #999999;  font-size: 24px;}
+#jump-txt-btn a {  display: block;}
 #jump-txt-btn:hover {  color: #555555;  transition: 0.8s;}
 
 /* メニューブタンだよ！ */
 #jump-btm-btn {  position: fixed;  top: 440px;  left: 0px;  width: 30px;  text-align: center;  
-  color: #999999;  font-size: 24px;  background: #333333;}
-#jump-btm-btn a {  display: block;  background: #333333;}
+  color: #999999;  font-size: 24px;}
+#jump-btm-btn a {  display: block;}
 #jump-btm-btn:hover {  color: #555555;  transition: 0.8s;}
 
 /* media queries をインポートするよ！ boilerplateからのこぴぺだけどね！ -------------------------------------------------- */
