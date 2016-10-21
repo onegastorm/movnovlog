@@ -376,9 +376,9 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
 
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。absoluteにするとカテゴリに重なるよ。 */
-.page-archive .entry-title {  color: #FFEEFF;/*  position: absolute;*/  display: inline-block;  background: #FFFF00;}
+.page-archive .entry-title {  color: #FFEEFF;/*  position: absolute;*/  display: inline-block;  background: #FFFF00;  margin-left: 0;}
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。 */
-.page-archive .archive-entries .entry-title {}
+.page-archive .archive-entries .entry-title {  margin-left: 0;}
 .page-archive .archive-entries .entry-title  a {  color: #777777;  font-size: 28px;  background: #00FFFF;}
 .page-archive .archive-entries .entry-title  a:hover {  color: #333333;  transition: 0.8s;}
 /* カテゴリ一覧のコンテンツを包括して扱う。広告の下が基準点。.archive-entryの方が値が大きい場合無視される。 */
