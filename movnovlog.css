@@ -124,7 +124,7 @@ span.author.vcard { display: none;}
 .categories a:before {  font-family: "fontawesome";  content: "\f02d";  padding-right: 2px;}
 .categories.no-categories {  margin: 0;}
 /* 編集ボタン系 */
-.entry-header-menu {  position: fixed;  top: 44px;  left: -20px;  width: 80px;  background: rgba( 256, 256, 256, 0.0);}
+.entry-header-menu {  position: fixed;  top: 44px;  left: -1px;  width: 84px;  background: rgba( 256, 256, 256, 0.0);}
 .entry-header-menu a {  font-size: 24px;  color: #999999;  text-decoration: none;  background: rgba( 256, 256, 256, 0.0);}
 /*.entry-header-menu a {    display: inline-block;  *display: inline;  *zoom:1;
   line-height: 18px;  text-align: center;  vertical-align: middle;  padding: 1px 12px;  cursor: pointer;
