@@ -87,7 +87,7 @@ span.author.vcard { display: none;}
 /* グローバルヘッダ！ */
 #globalheader-container {  width: 640px;  background: #FFEEFF;}
 /* コンテンツのコンテナ！ */
-#container {  width: 640px;  background: #FFFFEE;}
+#container {  width: 640px;  background: #FFFFEE;  text-align: right;}
 /* メインカラム！ */
 #main {  width: 610px;  background: #EEFFFF;}
 /*#main {  width: 610px;  text-align: right;}*/
