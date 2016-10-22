@@ -401,7 +401,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* パンくず関係 */
 
-#top-box {  display: none;}/*
+#top-box {  display: none;}
+.breadcrumb {  display: none;}/*
 #top-box {  font-size: 32px;  color: #999999;  width: 610px;  margin: 0 0 0 30px;  background: #EEEEEE;}
 .breadcrumb {  font-size: 32px;  color: #999999;  width: 530px;  margin: 0 40px 0 40px;  background: #FFEEEE;}
 .breadcrumb a {  font-size: 28px;  color: #DDDDDD;  text-decoration: none;}
