@@ -226,7 +226,7 @@ span.author.vcard { display: none;}
 display: block;
 width: 100%;
 padding: 0.4em 0px;
-margin: 0.5em auto;
+margin: 0.5em auto 80px;
 border-style: solid;
 border-width: 1px;
 border-color: #ccc #999 #999 #ccc;
