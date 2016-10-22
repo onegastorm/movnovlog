@@ -222,7 +222,7 @@ span.author.vcard { display: none;}
 
 /* コメントブタン */
 .leave-comment-title {
-  display: block;  width: 100%;  margin: 10px auto 80px auto;  padding-top: 12px 0 12px 0;  text-align: center;
+  display: block;  width: 100%;  margin: 10px auto 0 auto;  padding-top: 12px 0 12px 0;  text-align: center;
   color: #999999;  text-decoration: none;
   border: 1px solid;  border-color: #CCCCCC #999999 #999999 #CCCCCC;
   -moz-border-radius: 7px;  -webkit-border-radius: 7px;  -o-border-radius: 7px;  -ms-border-radius: 7px;  border-radius: 7px;
