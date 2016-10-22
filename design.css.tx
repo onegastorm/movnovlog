@@ -1,1 +1,3 @@
+/*@import url("http://onegastorm.github.io/movnovlog/movnovlog.css");*/
 @import url("https://cdn.rawgit.com/onegastorm/novlog/gh-pages/novlog.css");
+/* Responsive: yes */
