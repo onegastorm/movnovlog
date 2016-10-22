@@ -222,7 +222,7 @@ span.author.vcard { display: none;}
 
 /* コメントブタン */
 .leave-comment-title {
-  display: block;  width: 100%;  margin: 10px auto 80px auto;  padding-top: 10px;
+  display: block;  width: 100%;  margin: 10px auto 80px auto;  padding-top: 10px 0 10px 0;
 
   color: #999999;
 border-style: solid;
