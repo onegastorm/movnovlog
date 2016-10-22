@@ -400,23 +400,14 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* breadcrumb ---------------------------------------- */
 
 /* パンくず関係 */
-#top-box {  font-size: 32px;  color: #999999;  width: 610px;  margin: 0 0 0 30px;  background: #EEEEEE;}
 
-.breadcramb {  display: none;}
+#top-box {  display: none;}/*
+#top-box {  font-size: 32px;  color: #999999;  width: 610px;  margin: 0 0 0 30px;  background: #EEEEEE;}
 .breadcrumb {  font-size: 32px;  color: #999999;  width: 530px;  margin: 0 40px 0 40px;  background: #FFEEEE;}
 .breadcrumb a {  font-size: 28px;  color: #DDDDDD;  text-decoration: none;}
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
+*/
 
-
-/* パンくず（カテゴリーページで表示されます） *//*
-#top-box {
-  margin: 10px auto 20px;
-  font-size: 90%;
-}
-#top-box .breadcrumb {
-  border: 1px solid #dddddd;
-  padding: 10px;
-}*/
 
 /* jump ---------------------------------------- */
 
