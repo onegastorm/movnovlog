@@ -1,0 +1,231 @@
+﻿<!-- ふえぇ、縦書文庫だよぉ！ -->
+
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/tategakibunko/nehan.js/v5.5.4/css/nehan.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="http://onegastorm.github.io/movnovlog/responsivook.css" />
+
+<!--
+
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/onegastorm/movnovlog/gh-pages/responsivook.css" />
+
+-->
+
+
+
+<script type="text/javascript" src="https://cdn.rawgit.com/tategakibunko/nehan.js/v5.5.4/dist/nehan.min.js"></script>
+
+
+
+<script type="text/javascript" src="http://onegastorm.github.io/movnovlog/responsivook.js"></script>
+
+<!--
+
+<script type="text/javascript" src="https://cdn.rawgit.com/tategakibunko/responsivook/v1.2.0/responsivook.js"></script>
+
+-->
+
+
+
+
+
+<script type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function(event){
+
+  Responsivook.start(".nehan-vert-dangumi", {
+
+    theme:"book",
+
+    flow:"tb-rl",
+
+    fontSize:28,
+
+    fontFamily:"MS Mincho",
+
+    height:1008,
+
+    // その他のスタイル
+
+    styles:{
+
+       body:{
+
+          // 行末揃えを有効にする（ちょっと重くなる）
+
+          textAlign:"justify"
+
+       }
+
+     }
+
+  });
+
+});
+
+</script>
+
+
+
+<!-- ふえぇ、コピーライトだよぉ！ -->
+
+<div id="box3">
+
+  <div id="copyright">
+
+  <font>&copy; 2016 <a href="http://movnovlog.hatenablog.com/about">Movnovlog</a></font>
+
+  </div>
+
+</div>
+
+
+
+<!-- ふえぇ、上下ブタンの入れ子だよぉ！ -->
+
+<div id="jump">
+
+  <div id="jump-h">
+
+    <div id="jump-hom">
+
+      <a id="jump-hom-btn"><i class="blogicon-home"></i></a>
+
+    </div>
+
+  </div>
+
+  <div id="jump-t">
+
+    <div id="jump-top">
+      <a id="jump-top-btn"><i class="fa fa-arrow-up"></i></a>
+
+    </div>
+
+  </div>
+
+  <div id="jump-x">
+
+    <div id="jump-txt">
+
+      <a id="jump-txt-btn"><i class="fa fa-bookmark"></i></a>
+
+    </div>
+
+  </div>
+
+  <div id="jump-b">
+
+    <div id="jump-btm">
+
+      <a id="jump-btm-btn"><i class="fa fa-bars"></i></a>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- ふえぇ、上ブタンだよぉ！ -->
+
+<script>
+
+$(window).scroll(function(){
+
+    var now = $(window).scrollTop();
+
+//    if(now > 0){
+
+//      $("#jump-top").fadeIn("slow");
+
+//    }else{
+//      $("#jump-top").fadeOut("slow");
+
+//    }
+
+});
+
+$("#jump-top-btn").click(function(){
+
+    $("html,body").animate({scrollTop:0},"slow");
+
+});
+
+</script>
+
+
+
+<!-- ふえぇ、下ブタンだよぉ！ -->
+
+<!--
+
+<script type="text/javascript">
+
+$(function(){
+
+    $("#jump-btm-btn").click(function(){
+
+        $('body').animate({scrollTop: $(document).height()},"slow");
+
+//      $('body').animate({scrollTop: $(document).height()},1500);
+
+        return false;
+
+    });
+
+});
+
+</script>
+
+-->
+
+
+
+<!-- ふえぇ、本文ブタンだよぉ！ -->
+
+<script>
+
+document.getElementById( "jump-txt-btn" ).addEventListener( "click", function() {
+
+    // 要素の位置にスクロールする
+
+    $("html,body").animate({scrollTop:$('.responsivook-nehan-wrap').offset().top});
+
+});
+
+</script>
+
+
+
+<!-- ふえぇ、メニューブタンだよぉ！ -->
+
+<script>
+
+document.getElementById( "jump-btm-btn" ).addEventListener( "click", function() {
+
+    // 要素の位置にスクロールする
+
+    $("html,body").animate({scrollTop:$('.hatena-module').offset().top});
+
+});
+
+</script>
+
+
+
+<!-- ふえぇ、ホームブタンだよぉ！ -->
+
+<script>
+
+document.getElementById( "jump-hom-btn" ).addEventListener( "click", function() {
+
+  // ホームページを読み込む
+
+  window.location.href = "http://movnovlog.hatenablog.com/";
+
+});
+
+</script>
