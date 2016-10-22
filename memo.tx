@@ -1,8 +1,53 @@
+https://cdn.rawgit.com/onegastorm/nov/master/novlog.css
+https://cdn.rawgit.com/jonathantneal/normalize.css/master/normalize.css
+
+
+
+in production
+https://cdn.rawgit.com/onegastorm/novlog/gh-pages/responsivook.css
+https://cdn.rawgit.com/onegastorm/novlog/gh-pages/novlog.css
+https://cdn.rawgit.com/onegastorm/novlog/gh-pages/normalize303.css
+https://cdn.rawgit.com/onegastorm/novlog/gh-pages/novlogold.css
+
+for development
+
+https://rawgit.com/onegastorm/novlog/gh-pages/responsivook.css
+https://rawgit.com/onegastorm/novlog/gh-pages/novlog.css
+https://rawgit.com/onegastorm/novlog/gh-pages/normalize303.css
+https://rawgit.com/onegastorm/novlog/gh-pages/novlogold.css
+
+
+
+
+
+https://github.com/onegastorm/novlog/blob/master/novlog.css
+
+in production
+https://cdn.rawgit.com/onegastorm/novlog/master/novlog.css
+for development
+https://rawgit.com/onegastorm/novlog/master/novlog.css
+
+@import url("http://onegastorm.github.io/novlog/novlog.css");
+
+
+
+編集する時はスタイルCSSで下を読み込んでgh-pagesのcssを編集する
+このurlでブラウザ上にもソースを表示できる
+
+http://onegastorm.github.io/novlog/novlog.css
+
+
+テーマのソースを見るには
+
+http://hatenablog.com/theme/6435922169449274523.css
+
+
+
 
 http://hatenablog.com/theme/6435922169449274523.css
 
 June			6653812171402697532
-���q�ƍ�		6653458415122504720
+撫子と桜		6653458415122504720
 AobadaiStyle5sky	6653812171404962376
 milk green tea		8454420450095402387
 
@@ -12,7 +57,7 @@ milk green tea		8454420450095402387
 
 
 
-<!-- �ӂ����A���E�u�^���̓���q���悧�I -->
+<!-- ふえぇ、左右ブタンの入れ子だよぉ！ -->
 <div id="slide">
   <div id="slide-next">
     <a id="slide-next-btn"><i class="fa fa-angle-double-up"></i></a>
