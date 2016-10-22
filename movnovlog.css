@@ -370,8 +370,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。absoluteにするとカテゴリに重なるよ。 */
 .page-archive .entry-title {  color: #FFEEFF;/*  position: absolute;*/  display: inline-block;  background: #FFFF00;}
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。 */
-.page-archive .archive-entries .entry-title {  color: #777777;}
-.page-archive .archive-entries .entry-title  a {  font-size: 32px;  border-bottom: 1px solid #777777;  background: #00FFFF;}
+.page-archive .archive-entries .entry-title {  font-size: 32px;}
+.page-archive .archive-entries .entry-title  a {  color: #777777;  border-bottom: 1px solid #777777;  background: #00FFFF;}
 .page-archive .archive-entries .entry-title  a:hover {  color: #333333;  transition: 0.8s;}
 /* カテゴリ一覧のコンテンツを包括して扱う。広告の下が基準点。.archive-entryの方が値が大きい場合無視される。 */
 .page-archive .archive-entries {  color: #999999;  margin: 0 40px 0 40px;}
