@@ -90,7 +90,7 @@ span.author.vcard { display: none;}
 /* コンテンツのコンテナ！ */
 #container {  width: 640px;  background: #FFFFDD;}
 /* メインカラム！ */
-#main {  width: 610px;  margin-left: 30px;  background: #DDFFFF;  font-size:64px;}
+#main {  width: 610px;  margin-left: 30px;  background: #DDFFFF;  color: #00FFFF}
 /*#main {  width: 610px;  text-align: right;}*/
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
 /*#container-inner {  padding: 0 0 0 0;}*/
