@@ -222,13 +222,11 @@ span.author.vcard { display: none;}
 
 /* コメントブタン */
 .leave-comment-title {
-  display: block;  width: 100%;  margin: 10px auto 80px auto;  padding-top: 10px 0 10px 0;
+  display: block;  width: 100%;  margin: 10px auto 80px auto;  padding-top: 10px 0 10px 0;  color: #999999;
+  border: 1px solid #ccc #999 #999 #ccc;
+/*  border-style: solid;  border-width: 1px;  border-color: #ccc #999 #999 #ccc;*/
 
-  color: #999999;
-border-style: solid;
-border-width: 1px;
-border-color: #ccc #999 #999 #ccc;
-border-radius:         7px;  /* CSS3 */
+  border-radius:         7px;  /* CSS3 */
 -moz-border-radius:    7px;  /* Firefox */
 -webkit-border-radius: 7px;  /* Chrome,Safari */
 -o-border-radius:      7px;
