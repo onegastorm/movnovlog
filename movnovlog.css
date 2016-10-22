@@ -245,7 +245,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 /* コメントブタンの前にアイコンをつけます */
 .leave-comment-title:before {  font-family: "blogicon";  content: "\f010";  padding-right: 2px;}
 /* コメントブタンのマウスオーバー時の動作を指定します。 */
-.leave-comment-title:hover {  color: #777777;  transition: 0.8s;/*  background: #EEEEEE;*/}
+.leave-comment-title:hover {  color: #333333;  transition: 0.8s;/*  background: #EEEEEE;*/}
 
 /* sidebar ---------------------------------------- */
 
