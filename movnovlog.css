@@ -400,10 +400,10 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* breadcrumb ---------------------------------------- */
 
 /* パンくず関係 */
-#top-box {  font-size: 32px;  color: #999999;  width: 610px;  margin: 0 0 0 0;  background: #EEEEEE;}
+#top-box {  font-size: 32px;  color: #999999;  width: 610px;  margin: 0 0 0 30px;  background: #EEEEEE;}
 
 .breadcramb {  display: none;}
-.breadcrumb {  font-size: 32px;  color: #999999;  width: 530px;  margin: 10px 40px 10px 70px;  background: #FFEEEE;}
+.breadcrumb {  font-size: 32px;  color: #999999;  width: 530px;  margin: 0 40px 0 40px;  background: #FFEEEE;}
 .breadcrumb a {  font-size: 28px;  color: #DDDDDD;  text-decoration: none;}
 .breadcrumb a:hover {  color: #999999;  text-decoration: none;  transition: 0.8s;}
 
