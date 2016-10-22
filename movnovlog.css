@@ -251,7 +251,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 /* サイドバーの領域 */
 #box2 {  width: 640px;  font-size: 32px;  color: #777777;  padding: 0 0 0 0;  background: #333333;}
 /* 段組やらないよー！ */
-.hatena-module {  width: 530px;  padding-top:80px;  padding-bottom: 80px;  margin: 0px 40px 0px 70px;}
+.hatena-module {  width: 530px;  padding-top:80px;  padding-bottom: 80px;  margin: 0px 40px 0px 70px;  background: #666666;}
 /* 段組するよー！ */
 /*.hatena-module {  display: inline-block;  vertical-align: bottom;  margin-left: 50px;  width: 350px;}*/
 /*.hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}*/
@@ -265,7 +265,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 .hatena-module-title a {  color: #777777;}
 .hatena-module-title a:hover {  color: #777777;  cursor: default;}
 /* 各要素の本文 */
-.hatena-module-body {  margin-top: 5px;  padding: 0 0 0 100px;  background: #333333;  font-size: 100%;}
+.hatena-module-body {  margin-top: 5px;  padding: 0 0 0 0;  background: #333333;  font-size: 100%;}
 /* 何これ？ */
 .hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align: middle;}
 /* はてなモジュール・プロフィール関係 *//*
