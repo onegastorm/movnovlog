@@ -384,7 +384,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* 何？　日付っつーぐらいだから月間一覧とかの日付ですかね？ */
 /*.page-archive .archive-entries .date {  position: static;}*/
 /* カテゴリ一覧ページのカテゴリボタン関係。なんだかよくわからないが左右のmargin,paddingしか効かない。 */
-.page-archive .archive-entries .categories {  font-size: 28px;  border-bottom: 1px solid #777777;}
+.page-archive .archive-entries .categories {  font-size: 28px;}
+.page-archive .archive-entries .categories a {  border-bottom: 1px solid #777777;}
 /* 左右のpadding,marginは効くらしい。*/
 .page-archive .categories {  display: block;  text-align: right;  background: #FFDDFF;}
 /* paddingは効く。といって周りに影響を及ぼしていない*/
