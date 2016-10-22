@@ -86,9 +86,9 @@ span.author.vcard { display: none;}
 /* Globalheader & Container - 全体的に -------------------------------------------------- */
 
 /* グローバルヘッダ！ */
-#globalheader-container {  width: 640px;  background: #FFEEFF;}
+#globalheader-container {  width: 640px;  background: #FFDDFF;}
 /* コンテンツのコンテナ！ */
-#container {  width: 640px;  background: #FFFFEE;}
+#container {  width: 640px;  background: #FFFFDD;}
 /* メインカラム！ */
 #main {  width: 610px;  margin-left: 30px;  background: #DDFFFF;}
 /*#main {  width: 610px;  text-align: right;}*/
@@ -109,7 +109,7 @@ span.author.vcard { display: none;}
 /* Entry -------------------------------------------------- */
 
 /* コンテンツ全体的な */
-.entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #EEFFEE;}
+.entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #DDFFDD;}
 /* 記事タイトル部 */
 .entry-header {  position: relative;  margin: 0 40px 0 40px;  background: #00FF00;}
 /* 記事タイトル部タイトル系 */
@@ -181,7 +181,7 @@ span.author.vcard { display: none;}
 /* entry-footer ---------------------------------------- */
 
 /* 記事のフッターの領域規定 */
-.entry-footer {  margin:0 40px 0 40px;  padding-left: 0;  background: #FFEEEE;  font-size: 24px;}
+.entry-footer {  margin:0 40px 0 40px;  padding-left: 0;  background: #FFDDDD;  font-size: 24px;}
 /*.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}*/
 /* 文責と投稿時間だけ？ */
 .entry-footer-section {  display: none;}
@@ -362,7 +362,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* archive ---------------------------------------- */
 
 /* アーカイブコーナー全体。むかつくことに広告の上にマージンできるんですわ */
-.page-archive #main {  width: 610px;  font-size: 32px;  padding-bottom: 160px;  background: #EEFFEE;}
+.page-archive #main {  width: 610px;  font-size: 32px;  padding-bottom: 160px;  background: #DDFFEE;}
 /* 月別一覧のタイトル文字 */
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
 
@@ -385,7 +385,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* カテゴリ一覧ページのカテゴリボタン関係。なんだかよくわからないが左右のmargin,paddingしか効かない。 */
 .page-archive .archive-entries .categories {  font-size: 28px;}
 /* 左右のpadding,marginは効くらしい。*/
-.page-archive .categories {  display: block;  text-align: right;  background: #FFEEFF;}
+.page-archive .categories {  display: block;  text-align: right;  background: #FFDDFF;}
 /* paddingは効く。といって周りに影響を及ぼしていない*/
 .page-archive .categories a {  background: #FF0000;}
 
