@@ -319,7 +319,7 @@ span.author.vcard { display: none;}
 /* Pager ---------------------------------------- */
 
 /* pagerだよー！ */
-.pager {  margin: 0 0 0 0;  display: block;  *zoom: 1;}
+.pager {  margin: 0 40px 0 40px;/*  display: block;  *zoom: 1;*/}
 /* 戻るページ送り */
 .pager .pager-prev {  float: left;  text-align: left;}
 .pager .pager-prev a {  font-size: 24px;  color: #999999;}
