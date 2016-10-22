@@ -265,7 +265,7 @@ background: linear-gradient(top, #fff, #ccc);      /* CSS3 */
 .hatena-module-title a {  color: #777777;}
 .hatena-module-title a:hover {  color: #777777;  cursor: default;}
 /* 各要素の本文 */
-.hatena-module-body {  margin-top: 5px;  padding: 0 0 0 0;  background: #333333;  font-size: 100%;}
+.hatena-module-body {  margin-top: 5px;  padding: 0 0 0 100px;  background: #333333;  font-size: 100%;}
 /* 何これ？ */
 .hatena-module-body .circle-urllist .circle-image {  float: none;  vertical-align: middle;}
 /* はてなモジュール・プロフィール関係 *//*
