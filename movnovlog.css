@@ -322,12 +322,12 @@ span.author.vcard { display: none;}
 .pager {  margin: 0 40px 160px 40px;/*  display: block;  *zoom: 1;*/  background: #FFDDFF}
 /* 戻るページ送り */
 .pager .pager-prev {  float: left;  text-align: left;}
-.pager .pager-prev a {  font-size: 32px;  color: #999999;}
-.pager .pager-prev a:hover {  color: #333333;  transition: 0.8s;}
+.pager .pager-prev a {  font-size: 32px;  color: #999999;  border-bottom: solid 1px #999999;}
+.pager .pager-prev a:hover {  color: #333333;  transition: 0.8s;  border-bottom: solid 1px #333333;}
 /* 進むページ送り */
 .pager .pager-next {  float: right;  text-align: right;}
-.pager .pager-next a {  text-decoration: none;  font-size: 18px;  color: #999999;}
-.pager .pager-next a:hover {  color: #333333;  transition: 0.8s;}
+.pager .pager-next a {  font-size: 18px;  color: #999999;  border-bottom: solid 1px #999999;}
+.pager .pager-next a:hover {  color: #333333;  transition: 0.8s;  border-bottom: solid 1px #333333;}
 /* よくわからないが必要なものらしい */
 .pager:after {  display: block;  visibility: hidden;  font-size: 0;  height: 0;  clear: both;  content: "@@@";}
 
